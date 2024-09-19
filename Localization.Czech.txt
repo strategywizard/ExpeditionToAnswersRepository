@@ -1,0 +1,785 @@
+.,Czech
+quest.name,Výprava za odpověďmi V2
+quest.description,"Tento scénář je pokračováním scénáře Expedice hrůzy. Přinášíte relikvii zpět na Miskatonickou univerzitu v Arkhamu v naději, že vám vaši akademičtí spojenci pomohou rozluštit tajemství, která tato relikvie ukrývá.\n\nTento scénář obsahuje upravenou fázi Mýtu a náhodné události pro zvýšení znovuhratelnosti.\n\nPokud získáte stav Šílený, který vyžaduje oheň, zahoďte ho a lízněte si jinou kartu.\n\nVerze 2 – Přidán úvodní a závěrečný dabing."
+UIIntroContinueButton.button1,Pokračovat
+UIIntroContinueButton.uitext,Pokračovat
+EventClueTokensStart.text,"Každý vyšetřovatel začíná vyšetřování s 1 žetonem Stopy.\n\nPo fyzických a psychických traumatech, které jste utrpěli během Expedice hrůzy, začíná každý vyšetřovatel hru se 2 kartami Strachu otočenými lícem nahoru / nebo 2 kartami Zranění otočenými lícem nahoru / nebo 1 kartou Strachu a 1 kartou Zranění otočenými lícem nahoru.\n\nNaštěstí vám zkušenosti pomohly zdokonalit vaše dovednosti. Každý vyšetřovatel si zlepší jednu dovednost dle svého výběru.\n\n**Poznámka: Hvězdný kalendář nelze zahodit ani odložit, pokud vám to není výslovně řečeno. Pokud by vás nějaký efekt přinutil Hvězdný kalendář odložit, utrpíte 1 Zranění otočené lícem dolů."
+EventClueTokensStart.button1,Pokračovat
+quest.synopsys,"V tomto pokračování scénáře Expedice hrůzy přinášíte relikvii na Miskatonickou univerzitu."
+quest.authors,"Strategywizard\nSpanish Translation: T. García & Vidimus\nPolish Translation: Hacai\nCzech Translation: LabBrab"
+quest.authors_short,Strategywizard
+UIIntroText.uitext,"Poté, co jste získali Hvězdný kalendář z hloubi brazilské džungle,\njste se od něj drželi dál, obávajíc se, že byste mohli \notevřít další portál do nějaké hrůzné roviny existence.\n Také jste si všimli, že energie Hvězdného kalendáře \n v poslední době sílí. Po návratu do Arkhamu plánujete předat \n relikvii svému dobrému příteli a kolegovi, Eugene Clemensovi,\n který je zároveň děkanem univerzity.\n\nNedlouho po vašem návratu do Arkhamu už slyšíte různé zvěsti,\n že relikvie, kterou hledá Kult Zeleného oka, byla nalezena.\n Navíc zjišťujete, že jejich vliv se rychle šíří po celém městě.\n Víte, že ji musíte před nimi ukrýt za každou cenu,\n ale nevíte, komu můžete věřit. Určitě by zabili kohokoli,\n kdo by jim stál v cestě, jen aby dostali Hvězdný kalendář do svých rukou.\n\nEugene ví, že se s ním chystáte setkat, ale dali jste si pozor,\n abyste mu neprozradili své skutečné úmysly.\n Rychle projíždíte temnými ulicemi a nemůžete si nevšimnout každého člověka,\n který se potuluje ve stínech a uličkách.\n Mohli by to být členové Kultu Zeleného oka?\n Vědí, že máte artefakt, který tak zoufale hledají?\n Můžete jen doufat, že vaši totožnost jako objevitele relikvie neznají\n a že Eugene Vám bude schopen pomoci. Pokud však již byl zkorumpován,\n snad někdo další z vašich přátel na univerzitě bude důvěryhodný.\n Nemůžete si být jistí, kdo je na vaší straně, aniž byste to trochu prozkoumali."
+EventPlaceYardTiles.text,"Poté, co zaparkujete auto, pomalu se přibližujete k jedné z menších budov v univerzitním kampusu. Zde najdete kancelář děkana, kde na vás čeká Eugene Clemens, ačkoli jste se ujistili, že dorazíte brzy, abyste měli čas na průzkum před tím, než mu svěříte Hvězdný kalendář. Očekáváte, že zde bude i více vašich přátel z univerzitní fakulty.\n\nNemůžete odolat nutkání neustále sledovat jakýkoli pohyb ve stínech. Najednou z budovy vychází postava v hábitu a v rychlosti kolem vás proběhne. Na chvíli zahlédnete znak, připomínající zelené oko, visící z jeho opasku. Můžete se jen domnívat, že Kult Zeleného oka dokázal rozšířit svou zkaženost i na Miskatonickou univerzitu. S vědomím, že by bylo lepší neprozrazovat své podezření, neplánujete o této události nikomu uvnitř říct. Víte, že budete muset být opatrnější, než jste doufali, ale možná zde najdete někoho, komu můžete důvěřovat.\n\nDříve než vstoupíte do budovy, rozhodnete se pro jistotu ještě prozkoumat nejbližší okolí.\n\nUmístěte {c:TileFrontYard} a {c:TileLibraryYard} spolu s vašimi vyšetřovateli, jak je uvedeno."
+EventPlaceYardTiles.button1,Pokračovat
+EventAddSearchTokensYard.text,"V ohništi nalevo si všimnete zbytků spáleného papíru. Některé ohořelé útržky vypadají dostatečně velké na to, aby na nich mohlo být čitelné písmo.\n\nNapravo si všimnete stolu s různými předměty. Možná tam najdete něco užitečného.\n\nUmístěte 2 žetony Prohledat, jak je uvedeno."
+EventAddSearchTokensYard.button1,Pokračovat
+EventAddExploreTokensYard.text,"Dovnitř vedou dva vchody. Dveře vlevo jsou hlavní vchod do budovy, zatímco dveře vpravo vedou do knihovny.\n\nUmístěte 2 žetony Prozkoumat, jak je uvedeno."
+EventAddExploreTokensYard.button1,Pokračovat
+TokenSearchFirePit.text,"V ohništi zůstaly nějaké útržky papíru."
+TokenSearchFirePit.button1,{action} Prohledat
+EventSearchFirePit.text,"Najdete spoustu bezcenných útržků papíru bez čitelného textu. Určitě tu musí být něco, co stojí za váš čas {observation}."
+EventSearchFirePit.button1,Pokračovat
+EventFirePitFail.text,"Odhazujete bezcenné ohořelé útržky papíru, ale mezi popelem nic nenacházíte.\n\nOdstraňte tento Žeton Prohledat."
+EventFirePitFail.button1,Pokračovat
+EventFirePitMedium.text,"Odhazujete bezcenné ohořelé útržky papíru a všimnete si částí novinového článku o Kultu Zeleného oka. Článek popisuje rostoucí vliv kultu po celém Arkhamu. Dále zdůrazňuje, že kult je stále bez jakýchkoli prokazatelných zločinů, a že by se k nim měla veřejnost podle toho chovat. Nemůžete si nepoložit otázku, zda už noviny nebyly infiltrovány členy Zeleného oka.\n\nZnáte ty zvěsti. Únosy, lidské oběti a černá magie jsou všechny spojovány s touto záhadnou skupinou. Ale dokud se neobjeví hmatatelné důkazy, nebude možné je zastavit. Můžete jen doufat, že jejich vliv se ještě nerozšířil na Miskatonickou univerzitu.\n\nZískejte 1 Žeton Stopy a odstraňte tento Žeton Prohledat."
+EventFirePitMedium.button1,Pokračovat
+EventFirePitBest.text,"Odhazujete bezcenné ohořelé útržky papíru a najdete zbytky pergamenu, na kterém je výrazně vyobrazen symbol Kultu Zeleného oka. Také si všimnete stěží čitelného textu odkazujícího na Miskatonickou univerzitu. Může existovat spojení mezi touto záhadnou skupinou a touto uznávanou akademickou institucí? Vezměte si 1 Kartu Strachu (lze předejít úspěšným hodem na {will}).\n\nZnáte ty zvěsti. Únosy, lidské oběti a černá magie jsou všechny spojovány s touto záhadnou skupinou. Ale dokud se neobjeví hmatatelné důkazy, nebude možné je zastavit. Můžete jen doufat, že jejich vliv se ještě nerozšířil na Miskatonickou univerzitu.\n\nVšichni vyšetřovatelé získají 1 Žeton Stopy, poté odstraňte tento Žeton Prohledat."
+EventFirePitBest.button1,Pokračovat
+TokenSearchYardTable.text,"Na stole leží různé předměty. Možná zde něco pomůže vašemu vyšetřování."
+TokenSearchYardTable.button1,{action} Prohledat
+EventSearchYardTable1.text,"Při rychlém pohledu na stůl vás upoutá pořádný kus železa. Takový mocný nástroj může být přesně to, co během této nejisté návštěvy potřebujete.\n\nZískejte běžný předmět Páčidlo a odstraňte tento Žeton Prohledat."
+EventSearchYardTable1.button1,Pokračovat
+EventSearchYardTable2.text,"V měsíčním světle se třpytí lesklá čepel. Zvednete dýku a všimnete si, že na rukojeti jsou vyryty podivné runy. Co by dělala okultní dýka na univerzitní půdě?\n\nZískejte běžný předmět Rituální dýka a 1 Žeton Stopy."
+EventSearchYardTable2.button1,Pokračovat
+EventSearchYardTable3.text,"Na stole spočívá malá krabička, která vypadá, že sem nepatří, zcela náhodou je zamčená. Proč by tu ležela? Možná obsahuje zajímavé tajemství, které někdo nechtěl vzít dovnitř.\n\nZískejte jedinečný předmět Skříňka s hlavolamem a odstraňte tento Žeton Prohledat.\n\nSe Skříňkou s hlavolamem můžete interagovat v nabídce předmětů."
+EventSearchYardTable3.button1,Pokračovat
+EventPuzzleBoxInteraction.text,"Zámek hlavolamu vyžaduje znalost starověkých glyfů. Můžete se pokusit otevřít skříňku pomocí {lore}."
+EventPuzzleBoxInteraction.button1,{action} Pokusit se
+EventOpenPuzzleBox.text,"Skříňka cvakne a otevře se, odhalujíc svůj obsah. Vidíte elixír, velmi podobný tomu, který vám dali brazilští místní obyvatelé během vaší expedice za Hvězdným kalendářem. Je možné, že tam dorazil někdo jiný ve stejné době jako vy a přivezl jeden z těchto lektvarů? Možná jste se do toho prokletého chrámu dostali právě včas, abyste ho uchránili před zlem.\n\nZískejte Elixír a jedinečný předmět Usvědčující důkaz."
+PuzzleBox.button1,Hádat
+EventOpenPuzzleBox.button1,Pokračovat
+EventMove1Space.button1,Pokračovat
+EventMove1Space.text,"Můžete se přesunout o 1 oblast v prozkoumané oblasti."
+EventPuzzleBoxInteraction.button2,Zrušit
+TokenExploreEntranceRight.text,"Toto je vchod do malé knihovny na děkanátu."
+TokenExploreEntranceRight.button1,{action} Prozkoumat
+EventDoctorInnocent.button1,Tlačítko1
+EventDeanInnocent.button1,Pokračovat
+EventLibrarianInnocent.button1,Tlačítko1
+EventEnterLibrary.button1,Pokračovat
+EventProfessorInnocent.button1,Pokračovat
+TokenExploreEntranceLeft.text,"Tyto dveře vedou do hlavní vstupní haly děkanátu."
+EventAddLibrarySearchTokenLeft.button1,Pokračovat
+EventAddLibrarySearchTokenMiddle.text,"Toto je přece knihovna, takže by stálo za to podívat se, jaká literatura nebo rukopisy jsou na polici.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddLibrarySearchTokenLeft.text,"Všimnete si několika míst, která při hledání stop stojí za prozkoumání.\n\nMalý stůl před vámi je pokryt knihami, které byly nedávno využity. Jedna z nich se jmenuje „<i>Starověké kmeny Brazílie</i>“. Může to být jen náhoda, že taková kniha byla vytažena právě po vašem návratu z brazilské expedice?\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddLibrarySearchTokenMiddle.button1,Pokračovat
+EventAddLibrarySearchTokenRight.text,"Na druhém konci knihovny je po podlaze roztroušena hromada papírů.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddLibrarySearchTokenRight.button1,Pokračovat
+EventAddLibrarian.button1,Pokračovat
+EventAddExploreTokenLibraryToEntryHall.text,"Dveře vlevo vedou do hlavní vstupní haly.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventAddLibrarian.text,"Všimnete si jednoho ze svých akademických přátel, Howarda Bechmana, hlavního knihovníka. Soustředěně pročítá nějaké dokumenty a neodtrhne oči od textů před sebou.\n\nUmístěte Žeton Howard Bechman, jak je uvedeno."
+EventAddExploreTokenLibraryToEntryHall.button1,Pokračovat
+TokenExploreHallToLibrary.text,"Tyto dveře vedou do malé knihovny na děkanátu."
+TokenExploreHallToLibrary.button1,{action} Prozkoumat
+EventEnterLibrary.text,"Zápach starých zaprášených knih je nezaměnitelný. Jak jste očekávali, vidíte místnost lemovanou regály plnými knih a rukopisů. Neočekávaně však vidíte, že je v knihovně docela nepořádek. Po celé místnosti jsou rozházeny papíry a knihy, což úplně ignoruje jakýkoli smysl pro pořádek. Někdo musí něco důkladně zkoumat, aby tento chaous ospravedlnil.\n\nUmístěte {c:TileLibrary} a Žeton Zdi, jak je uvedeno."
+TokenExploreEntranceLeft.button1,{action} Prozkoumat
+EventEnterEntryHall.text,"Vstupní hala je čistá, uklizená a přívětivá, a na čerstvě naleštěné podlaze téměř vidíte svůj odraz. Ticho v místnosti je však děsivé a narušuje ho jen ozvěna vašich kroků odrážejících se od starých zdí.\n\nUmístěte {c:TileUniversityEntrance}, jak je uvedeno."
+EventEnterEntryHall.button1,Pokračovat
+EventAddSearchTokenEntryHall.text,"Na malém stole vlevo v hale leží list papíru.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddSearchTokenEntryHall.button1,Pokračovat
+EventAddExploreTokenHallToBathroomLobby.button1,Pokračovat
+EventAddExploreTokenHallToLargeClass.text,"Na těchto dveřích je cedulka s nápisem „Učebna 101“.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventAddExploreTokenHallToBathroomLobby.text,"Na těchto dveřích je cedulka s nápisem „Koupelna“.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventAddExploreTokenHallToLargeClass.button1,Pokračovat
+EventAddExploreTokenHallToDean.text,"Na dveřích na konci chodby je zlatá cedulka s nápisem „Děkanova kancelář“.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventAddExploreTokenHallToDean.button1,Pokračovat
+EventAddExploreTokenHallToMedOffice.text,"Na těchto dveřích je cedulka s nápisem „Ošetřovna“.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventAddExploreTokenHallToMedOffice.button1,Pokračovat
+EventAddExploreTokenHallToLibrary.text,"Na těchto dveřích je cedulka s nápisem „Knihovna“.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventAddExploreTokenHallToLibrary.button1,Pokračovat
+TokenExploreLibraryToHall.text,"Tyto dveře vedou do hlavní vstupní haly děkanátu."
+TokenExploreLibraryToHall.button1,Pokračovat
+TokenSearchLibraryLeft.text,"Na stole leží kniha s názvem „<i>Starověké kmeny Brazílie</i>“, někdo ji vytáhl z regálu."
+TokenSearchLibraryLeft.button1,{action} Prohledat
+EventLibraryBookBrazil.text,"Zkoumáte knihu s nadějí, že v jejích stránkách najdete nějaké stopy {observation}."
+EventLibraryBookBrazil.button1,Pokračovat
+EventBrazilianBookFail.text,"Procházíte stránky knihy, ale nenajdete nic pozoruhodného."
+EventBrazilianBookFail.button1,Pokračovat
+EventBrazilianBookPass.text,"Při procházení knihy si všimnete ohnutého rohu na jedné ze stránek. Text odkazuje na nějakou legendu o chrámu, který starověké kmeny považovaly za propojený se zlým světem plným nadpřirozených hrůz. Není pochyb o tom, že se jedná o chrám, ve kterém jste našli Hvězdný kalendář. Je zřejmé, že se zde někdo snaží o tomto artefaktu zjistit více, a nemůžete předpokládat, že tato osoba bude mít sympatie k vašim motivům.\n\nZískejte 2 Žetony Stopy a odstraňte tento Žeton Prohledat."
+EventBrazilianBookPass.button1,Pokračovat
+TokenSearchLibraryMiddle.text,"Regály jsou přeplněné knihami a stránkami různorodých rukopisů. Něco užitečného musí být ukryto v těchto kožených vazbách a inkoustem pokrytých pergamenech."
+TokenSearchLibraryMiddle.button1,{action} Prohledat
+EventSearchLibraryShelves.text,"Trvalo by vám hodiny, než byste přečetli všechny texty, které máte před sebou, ale možná najdete něco užitečného, pokud víte, co hledat. Otestujte {lore}."
+EventSearchLibraryShelves.button1,Pokračovat
+EventSearchLibraryShelvesFail.button1,Pokračovat
+EventSearchLibraryShelvesMedium.text,"Nemusíte být nejostřejší tužka v penále, ale o literatuře něco víte. Ačkoli se tento svazek zdá pro akademickou knihovnu příliš hrozivý, jsme na Miskatonické univerzitě, takže váš úžas se rychle mění v rezignované přijetí.\n\nZískejte běžný předmět Kniha hrůzy a odstraňte tento Žeton Prohledat."
+EventSearchLibraryShelvesFail.text,"Procházení této knihovny plné knih vás nijak neobohatilo."
+EventSearchLibraryShelvesMedium.button1,Pokračovat
+EventSearchLibraryShelvesPass.text,"Vaše znalosti okultních tajemství se vyplatily. Všimnete si ošuntělé stránky, která není spojená s žádnou vazbou, je pokrytá archaickými znaky. Rozpoznáte ji jako okultní kouzlo, a to velmi nebezpečné. Mohl by Kult Zeleného oka schovávat svou temnou magii i v této knihovně?\n\nZískejte kouzlo {c:QItemAttackSpell}, 1 Žeton Stopy a odstraňte tento Žeton Prohledat."
+EventSearchLibraryShelvesPass.button1,Pokračovat
+TokenSearchLibraryRight.text,"Několik papírů je rozházeno po podlaze poblíž Howarda Bechmana. Zdá se, že byly vytrženy z desek s Howardovým jménem, takže to musí být jeho osobní poznámky. Pravděpodobně by nechtěl, abyste se v nich hrabali, takže musíte mít oči na stopkách, abyste z těchto stránek posbírali nějaké informace."
+TokenSearchLibraryRight.button1,{action} Prohledat
+EventLibraryPapersGuiltyEvidence.text,"Howard Bechman je zcela pohlcen knihou, kterou čte, takže možná máte dobrou příležitost získat nějaké detaily z jeho poznámek {observation}."
+EventLibraryPapersGuiltyEvidence.button1,Pokračovat
+EventLibraryPapersNoEvidence.button1,Pokračovat
+EventLibraryPapersGuiltyEvidenceFail.text,"Když začnete procházet stránky, zapomenete dávat pozor na Howardův pohled. Jakmile si všimne, že se díváte na jeho poznámky, sebere je z podlahy a bezpečně je vrátí zpět do svého pořadače.\n\nDívá se na vás podezíravě a jízlivě poznamená: „Tohle jsou moje osobní poznámky. Pokoušeli jste se v nich šťourat?“\n\nPokoušíte se ho uklidnit a dát mu najevo, že nemáte žádné zlé úmysly. Zdá se však, že vám nevěří {influence}."
+EventLibraryPapersGuiltyEvidenceFail.button1,Pokračovat
+EventConvinceLibrarianFail.text,"Howard Bechman na vás zavrčí a vystrčí jazyk s dlouhou rozeklanou špičkou. „Jak se opovažujete! Můžete hledat znalosti o Kultu Zeleného oka, ale ze mě nikdy žádné informace nedostanete!“ Knihovník rychle opouští budovu a při útěku syčí.\n\nVezměte si 2 Karty Strachu (lze předejít úspěšným hodem na {will}) a získejte 2 Žetony Stopy.\n\nOdstraňte Žeton Howard Bechman a tento Žeton Prohledat."
+EventConvinceLibrarianFail.button1,Pokračovat
+EventConvinceLibrarianPass.text,"Vaše slova jsou přesvědčivá a Howard propukne v záchvat smíchu. „Jak jsem o vás mohl pochybovat, vzhledem k našemu dlouholetému přátelství? Děkuji, že jste mi pomohl sesbírat mé papíry, a omlouvám se, že jsem vám nevěřil.“\n\nVrátí se k dokumentům, které tak intenzivně četl, ale nemůžete si nevšimnout rozeklaného hadího jazyka, který mu vyskakuje z úst během jeho smíchu. Možná jste si získali jeho důvěru, ale on definitivně ztratil tu vaši.\n\nVezměte si 1 Kartu Strachu (lze předejít úspěšným hodem na {will}) a získejte 2 Žetony Stopy.\n\nOdstraňte tento Žeton Prohledat."
+EventConvinceLibrarianPass.button1,Pokračovat
+EventLibraryPapersGuiltyEvidencePass.text,"Daří se vám pozorně sledovat Howarda Bechmana, zatímco procházíte jeho poznámky. Šokujícím způsobem nacházíte zmínky o jeho členství v Kultu Zeleného oka. Navíc mu kult přidělil úkol zjistit historii Hvězdného kalendáře. Teď už víte, že mu nemůžete věřit.\n\nZískejte 2 Žetony Stopy, unikátní předmět Usvědčující důkaz a odstraňte tento Žeton Prohledat."
+EventLibraryPapersGuiltyEvidencePass.button1,Pokračovat
+EventLibraryPapersInnocentTestFail.text,"Když procházíte stránky, vaše zvědavost vás zradí a ztratíte soustředění. Howard si toho všimne a zdvořile si vezme stránky a uloží je zpět do svého pořadače.\n\n„Omlouvám se, ale toto jsou mé osobní výzkumné poznámky,“ poznamená klidným hlasem. „Přestože jste můj přítel, musím si to zatím nechat pro sebe. Mé objevy vedly k nečekaným závěrům a chci se dopátrat úplných výsledků, než se o ně podělím nebo je publikuji. Jsem si jistý, že to chápete.“\n\nZískejte 1 Žeton Stopy a odstraňte tento Žeton Prohledat."
+EventLibraryPapersInnocentTestFail.button1,Pokračovat
+EventLibraryPapersInnocentTestPass.text,"S bystrým okem se vám podaří sledovat Howarda a důkladně prozkoumat stránky.\n\nStránky podrobně popisují jeho výzkum Hvězdného kalendáře, ačkoli jej označuje pouze jako „Dimenzionální artefakt“. Jeho poznámky tvrdí, že může mít mimozemský původ. To by vysvětlovalo podivná souhvězdí, která jsou roztroušena po jeho povrchu a která nápadně nepřipomínají žádná známá souhvězdí viditelná ze Země.\n\nZískejte 1 Žeton Stopy a odstraňte tento Žeton Prohledat."
+EventLibraryPapersInnocentTestPass.button1,Pokračovat
+TokenLibrarian.text,"Váš přítel Howard Bechman je mnoho let hlavním knihovníkem na Miskatonické univerzitě. Přestože mu chcete věřit, nedávné události vás přinutily zpochybnit loajalitu vašich přátel.\n\nV tuto chvíli je zcela ponořen do dokumentu, který drží v rukou.\n\nVyšetřovatel, který má Hvězdný kalendář, ho může Howardovi ukázat, pokud ho považujete za důvěryhodného."
+TokenLibrarian.button1,{action} Promluvit
+EventSpeakToLibrarian.text,"Zdvořile si odkašlete a získáte Howardovu pozornost. Na jeho tváři se objeví široký úsměv a zvolá: „Ah, už je to dlouho! Je skvělé vás znovu vidět. Po Arkhamu se povídá, že jste podnikl výpravu do Brazílie. Je to pravda?“\n\nVyprávíte mu jen minimum detailů o své cestě a úmyslně opomenete zmínit Hvězdný kalendář nebo svůj objev chrámu, kde se nacházel.\n\n„No, to je náhoda, protože já jsem prováděl výzkum zvláštní relikvie, o které se tvrdí, že se nachází hluboko v brazilské džungli. Mám podezření, že jste ji sám hledal, ale nemohu vás obviňovat, že si své karty zatím necháváte pro sebe. Členové Kultu Zeleného oka mohou být kdekoli,“ zašeptá.\n\nPotvrdíte své pochopení a po sdělení Howardu Bechmanovi, že jste zde, abyste se setkali s děkanem Clemensem, vám popřeje hodně štěstí a vrátí se ke svému čtení.\n\nZískejte 1 Žeton Stopy."
+EventSpeakToLibrarian.button1,Pokračovat
+TokenLibrarian2.text,"Hlavní knihovník je stále ponořen do svého výzkumu.\n\nVyšetřovatel, který drží Hvězdný kalendář, ho může Howardovi odhalit, pokud ho považujete za důvěryhodného."
+TokenLibrarian2.button1,{action} Odhalit Hvězdný kalendář
+TokenSearchEntryHallTable.text,"Na malém stole v hale je položena přihlašovací a odhlašovací listina zaměstnanců."
+TokenSearchEntryHallTable.button1,{action} Prohledat
+EventReadSignInList.text,"Vidíte, že ve vnitřních prostorách jsou stále přihlášeni čtyři lidé - děkan Clemens, hlavní knihovník Howard Bechman, doktorka Rose Barnettová a profesor Smith. Jste s nimi všichni dobří přátelé a kdokoli z nich by vám mohl pomoci při hledání odpovědí týkajících se Hvězdného kalendáře. Máte však podezření, že kdokoli z nich už mohl být zkorumpován a mohl se přidat ke kultu.\n\nCíl: Najděte jednoho důvěryhodného spojence a předejte mu Hvězdný kalendář.\n\nPoznámka: Ne všechny důkazy se v tomto scénáři nacházejí na stejných místech při každém hraní. Hledáte usvědčující důkazy proti třem zaměstnancům, ale je možné, že některé klíčové důkazy minete a budete muset vyvozovat závěry z neúplných informací.\n\nZískejte 1 Žeton Stopy a odstraňte tento Žeton Prohledat."
+EventReadSignInList.button1,Pokračovat
+TokenExploreHallToBathroomLobby.text,"Tyto dveře vedou ke koupelně."
+TokenExploreHallToBathroomLobby.button1,{action} Prozkoumat
+EventEnterBathroomLobby.text,"Před koupelnou se nachází malá čekárna. Je jednoduchá, vybavená koženým křeslem a malým stolkem.\n\nUmístěte {c:TileBathroom} a Žeton Zdi, jak je uvedeno."
+EventEnterBathroomLobby.button1,Pokračovat
+EventAddSearchTokenBathroomLobby.text,"Zásuvka stolu je mírně pootevřená. Možná v ní najdete něco užitečného.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddSearchTokenBathroomLobby.button1,Pokračovat
+EventAddExploreTokenLobbyToBathroom.button1,Pokračovat
+EventSearchDeskBathroomLobby1.text,"Když zásuvku více otevřete, najdete v ní malý kříž. Tento nález vám připomíná, že ve světě existují lidé, kteří jsou připraveni postavit se zlu ve všech jeho podobách.\n\nZískejte běžný předmět Svatý Kříž, staňte se Spravedlivým a odstraňte tento Žeton Prohledat."
+TokenExploreLobbyToBathroom.text,"Před Vámi se nacházejí dveře do koupelny."
+TokenExploreLobbyToBathroom.button1,{action} Prozkoumat
+TokenSearchBathroomLobbyDesk.text,"Zásuvka stolu je mírně pootevřená."
+TokenSearchBathroomLobbyDesk.button1,{action} Prohledat
+EventSearchDeskBathroomLobby1.button1,Pokračovat
+EventSearchDeskBathroomLobby2.text,"Když otevřete zásuvku o něco více, všimnete si lahvičky se svěcenou vodou. Tento nález vám připomíná, že na světě jsou lidé, kteří stojí na vaší straně a jsou připraveni bojovat proti zlu ve všech jeho podobách.\n\nZískejte běžný předmět Svěcená voda, staňte se Soustředěným a odstraňte tento Žeton Prohledat."
+EventAddExploreTokenLobbyToBathroom.text,"Dveře do koupelny jsou na opačné straně místnosti. Umístěte Žeton Prozkoumat, jak je uvedeno."
+EventSearchDeskBathroomLobby2.button1,Pokračovat
+EventEnterBathroom.text,"Malá koupelna je dobře udržovaná. Čistota vás ohromí, až na několik šmouh na zrcadle."
+EventEnterBathroom.button1,Pokračovat
+EventAddSearchTokenBathroomMirror.text,"Když se podíváte blíže, možná to nakonec nejsou šmouhy na zrcadle.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddSearchTokenBathroomMirror.button1,Pokračovat
+EventAddSearchTokenBathroomDrawers.text,"Sada zásuvek vedle umyvadla by mohla obsahovat něco užitečného.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddSearchTokenBathroomDrawers.button1,Pokračovat
+TokenLibrarian.button2,{action} Odhalit Hvězdný kalendář
+TokenSearchBathroomDrawers.text,"V těchto zásuvkách se určitě dá najít něco užitečného."
+TokenSearchBathroomDrawers.button1,{action} Prohledat
+EventSearchBathroomDrawersItem1.text,"Když se vzpamatujete z hrůzného záblesku vzpomínek, vrátíte se k prohledávání zásuvek a narazíte na zvláštní tekutinu.\n\nZískejte běžný předmět Duševní povzbuzovač a odstraňte tento Žeton Prohledat."
+EventSearchBathroomDrawersItem1.button1,Pokračovat
+EventSearchBathroomDrawersItem2.text,"Když se vzpamatujete z hrůzného záblesku vzpomínek, vrátíte se k prohledávání zásuvek a narazíte na zvláštní tekutinu.\n\nZískejte běžný předmět Obohacující sérum a odstraňte tento Žeton Prohledat."
+EventSearchBathroomDrawersItem2.button1,Pokračovat
+EventSearchBathroomDrawersItem3.text,"Když se vzpamatujete z hrůzného záblesku vzpomínek, vrátíte se k prohledávání zásuvek a narazíte na zvláštní tekutinu.\n\nZískejte běžný předmět Měsíční lektvar a odstraňte tento Žeton Prohledat."
+EventSearchBathroomDrawersItem3.button1,Pokračovat
+EventSearchBathroomDrawersItem4.text,"Když se vzpamatujete z hrůzného záblesku vzpomínek, vrátíte se k prohledávání zásuvek a narazíte na zvláštní tekutinu.\n\nZískejte běžný předmět Mutační šťáva a odstraňte tento Žeton Prohledat."
+EventSearchBathroomDrawersItem4.button1,Pokračovat
+EventSearchBathroomDrawersItem5.text,"Když se vzpamatujete z hrůzného záblesku vzpomínek, vrátíte se k prohledávání zásuvek a narazíte na zvláštní tekutinu.\n\nZískejte běžný předmět Oční výtažek a odstraňte tento Žeton Prohledat."
+EventSearchBathroomDrawersItem5.button1,Pokračovat
+TokenSearchBathroomMirror.text,"Když se přiblížíte k zrcadlu, zjistíte, že to, co jste považovali za šmouhy, jsou ve skutečnosti nehmotné rozmazané výjevy v jeho odrazu. Připomíná vám to vizuální zkreslení, které jste zažili během své nedávné expedice."
+TokenSearchBathroomMirror.button1,{action} Dotknout se zrcadla
+EventApproachMirror.text,"Těsně předtím, než se vaše prsty dotknou vašeho odrazu, se v zrcadle objeví vize. Vidíte, jak doktorka Rose Barnettová něco kreslí do lebky lidské kostry, kterou používá při svých přednáškách v malé zasedací místnosti vedle děkanovy kanceláře. Vize vás šokuje, ale i když je nevysvětlitelná, víte, že by stálo za to ji prozkoumat. Nicméně si nemůžete být jistí, zda je vize důvěryhodná.\n\nZískejte 2 Žetony Stopy."
+EventApproachMirror.button1,Pokračovat
+EventTouchMirror.button1,Pokračovat
+EventAddSkeletonSearchTokenIfSmallClassRevealed.text,"Kostra stojí přesně na místě, kde ji ukázala vaše vize.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddSkeletonSearchTokenIfSmallClassRevealed.button1,Pokračovat
+EventFinallyTouchMirrorAfterVision.text,"Když se vize rozplyne, vaše prsty se dotknou zrcadla.\n\nZrcadlo je na dotek ledové a chlupy na vašich pažích začnou samy vstávat."
+EventFinallyTouchMirrorAfterVision.button1,Pokračovat
+EventTouchMirror.text,"Zrcadlo je na dotek ledové a chlupy na vašich pažích začnou samy vstávat."
+EventTouchMirror1.text,"Dotek zrcadla trvá jen vteřinu, když váš prst pronikne do stříbřité kapaliny, kde předtím bylo zrcadlo. Po místnosti se rozléhá syčivý zvuk, který stále sílí, jako by se něco blížilo."
+EventTouchMirror1.button1,Pokračovat
+SpawnFlyingSerpentMirror.button1,Pokračovat
+EventAddSearchTokenSkeleton.text,"Všimnete si figuríny kostry poblíž pódia. Když si vzpomenete na svou vizi s doktorkou Barnettovou, víte, že byste se měli podívat dovnitř její lebky.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+TokenLockedBathroomDoor.text,"Dveře jsou chráněny podivným energetickým polem a nelze je otevřít."
+TokenLockedBathroomDoor.button1,Pokračovat
+EventTouchMirror2.text,"Před vámi se objeví přízrak, který zaujme místo, kde by měl být váš odraz. Beze slova vám telepaticky vnucuje myšlenku, že jste někdo úplně jiný. Mohou být vaše vzpomínky na minulost opravdu tak zkreslené a mylné? Pokoušíte se ve své mysli s přízrakem přetahovat, abyste se udrželi v realitě ({influence}; 2)."
+EventTouchMirror2.button1,Úspěch
+EventTouchMirror2.button2,Neúspěch
+EventApparitionMirrorPass.text,"Překonáváte nesmyslné zhmotnění přízraku a vaše odhodlání je posíleno. Stáváte se Soustředěným.\n\nOdstraňte tento Žeton Prohledat."
+EventApparitionMirrorPass.button1,Pokračovat
+EventApparitionMirrorFailBTT.text,"Snažíte se překonat přesvědčování ducha, ale vaše jistota ve vzpomínky na minulost slábne. Stáváte se Hypnotizovaným a vezmete si 2 Karty Strachu otočené lícem dolů.\n\nOdstraňte tento Žeton Prohledat."
+EventApparitionMirrorFailBTT.button1,Pokračovat
+EventApparitionMirrorFailTwilight.text,"Snažíte se překonat přesvědčování ducha, ale vaše jistota ve vzpomínky na minulost slábne. Okamžitě ukončete svůj tah. Poté se stáváte Stresovaným a vezmete si 2 Karty Strachu otočené lícem dolů.\n\nOdstraňte tento Žeton Prohledat."
+EventApparitionMirrorFailTwilight.button1,Pokračovat
+EventApparitionMirrorFail.text,"Snažíte se překonat přesvědčování ducha, ale vaše jistota ve vzpomínky na minulost slábne. Vezměte si 3 Karty Strachu.\n\nOdstraňte tento Žeton Prohledat."
+EventApparitionMirrorFail.button1,Pokračovat
+EventKillMirrorSerpent.button1,Pokračovat
+TokenExploreHallToMedOffice.text,"Tyto dveře vedou do ošetřovny doktorky Rose Barnettové, vaší staré přítelkyně."
+TokenExploreHallToMedOffice.button1,{action} Prozkoumat
+EventEnterMedicalOffice.text,"Zápach, který vás udeří do nosu, není zrovna vábný a krev rozmazaná na křesle určeném pro pacienty vám rozhodně chuť k jídlu nezlepší. Zdá se, že doktorka Barnettová má na starosti víc než jen běžné lékařské návštěvy.\n\nUmístěte {c:TileMedicalOffice}, jak je uvedeno."
+EventEnterMedicalOffice.button1,Pokračovat
+EventAddSearchTokensMedicalOffice.text,"Police jsou plné různého lékářského vybavení. Možná by doktorka neměla nic proti tomu, kdyby vám něco z toho půjčila.\n\nNa stole v místnosti leží blok, který by mohl poskytnout náhled do nedávných aktivit doktorky Barnettové.\n\nUmístěte 2 Žetony Prohledat, jak je uvedeno."
+EventAddSearchTokensMedicalOffice.button1,Pokračovat
+EventAddExploreTokenMedOfficeToWarehouse.text,"Po levé straně si všimnete dalších dveří, které vedou do skladovací místnosti této budovy.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventAddExploreTokenMedOfficeToWarehouse.button1,Pokračovat
+EventAddDoctorToken.text,"Před vámi stojí vaše přítelkyně, doktorka Rose Barnettová. Je dobře známá pro své vynikající lékařské služby a rozsáhlé akademické znalosti, které získala částečně díky bezplatným kurzům, které může navštěvovat jako zaměstnankyně Miskatonické univerzity.\n\nUmístěte Žeton doktorky Rose Barnettové, jak je uvedeno."
+EventAddDoctorToken.button1,Pokračovat
+TokenSearchMedOfficeLeft.text,"Prohlížíte si lékařské vybavení a zdvořile se ptáte doktorky Barnettové, zda by vám mohla něco půjčit, co by se vám mohlo hodit.\n\n„Samozřejmě,“ odpoví vážným tónem. „Ale toto jsou univerzitní zásoby, tak si neberte víc, než potřebujete.“\n\nMůžete si také vzít Léky na bolest, pokud máte rozšíření Svatyně soumraku."
+TokenSearchMedOfficeLeft.button1,{action} Vzít skalpel
+TokenSearchMedOfficeLeft.button2,{action} Vzít obvazy
+TokenSearchMedOfficeLeft.button3,{action} Vzít whisky
+EventTakeScalpel.text,"Víc než cokoliv jiného si myslíte, že byste mohli potřebovat něco na sebeobranu. Poděkujete doktorce a uložíte skalpel do kapsy.\n\nZískejte běžný předmět Skalpel a odstraňte tento Žeton Prohledat."
+EventTakeScalpel.button1,Pokračovat
+EventTakeBandages.text,"Vezmete si z police čisté obvazy, poděkujete doktorce a vložíte je do kapsy.\n\nZískejte běžný předmět Obvazy a odstraňte tento Žeton Prohledat."
+EventTakeBandages.button1,Pokračovat
+EventTakeWhiskey.text,"Pacienti doktorky Barnettové jistě oceňují její schopnost tlumit bolest, ale vy ji možná budete potřebovat, abyste si udrželi příčetnost po celou noc. Poděkujete doktorce a uložíte láhev do kapsy svého kabátu.\n\nZískejte běžný předmět Whisky a odstraňte tento Žeton Prohledat."
+EventTakeWhiskey.button1,Pokračovat
+TokenDoctor.text,"Doktorka Rose Barnettová čistí své vybavení, které je zřejmě čerstvě potřísněné krví, podobně jako lékařské křeslo. Všimne si vašeho příchodu, ale zůstává soustředěná na svou práci. Nikdy nebyla moc výřečná, ani velký společenský typ, takže vás její apatie vůči vaší přítomnosti příliš nepřekvapí.\n\nJediná věc, na kterou teď myslíte, je, odkud všechna ta krev pochází. Pokud máte Hvězdný kalendář a považujete doktorku Barnettovou za důvěryhodnou, můžete jí ho odhalit."
+TokenDoctor.button1,{action} Zeptat se na krev
+TokenDoctor.button2,{action} Odhalit Hvězdný kalendář
+TokenSearchMedOfficeLeft.button4,{action} Vzít Léky na bolest
+EventTakePainkillers.text,"Od té doby, co jste přivezli Hvězdný kalendář, vás bolí hlava. Tyhle pilulky by vám mohly pomoci.\n\nZískejte běžný předmět Léky na bolest a odstraňte tento Žeton Prohledat."
+EventTakePainkillers.button1,Pokračovat
+EventAskAboutBlood.text,"Přivítáte doktorku Barnettovou a zeptáte se na krev na křesle a jejím vybavení.\n\n„No, ráda tě taky vidím,“ zamumlá suchým, ale trochu humorným tónem. „Původ té krve... nejsem si jistá, jestli bych ti to měla říkat, i když jsme staří přátelé. To je záležitost policie a univerzity...“\n\nSnažíte se doktorku přesvědčit o své schopnosti udržet tajemství a pokoušíte se z ní informace vylákat. Zdá se však, že je odhodlaná držet detaily v tajnosti. Máte pocit, že budete mít pouze jednu šanci ji přesvědčit {influence}."
+EventAskAboutBlood.button1,Pokračovat
+EventAskAboutBloodFail.text,"Doktorka Barnettová zůstává neoblomná. „Je mi líto, ale bylo by rozumné, abych o tom mlčela.“\n\nZ toho můžete usuzovat, že na univerzitě nedávno došlo k nějakému násilí.\n\nZískejte 1 Žeton Stopy."
+EventAskAboutBloodFail.button1,Pokračovat
+EventAskAboutBlood.button2,Zrušit
+EventAskAboutBloodPass.text,"Když mluvíte, vidíte, že vaše slova pomalu uklidňují obavy vaší přítelkyně. Doktorka Barnettová uvolní ramena a začne šeptem vyprávět.\n\n„Slyšel jsi o Kultu Zeleného oka? Jejich vliv se šíří a zdá se, že mají zájem o Miskatonickou univerzitu. Zřejmě se jeden z jejich členů setkal s některými našimi studenty, možná ve snaze získat nové členy. Jeho obličej však zakrývala kápě, takže jeho totožnost zůstává neznámá. Po ostré hádce vypukla potyčka. Nakonec byl jeden ze studentů těžce zraněn, zavolali policii a člen kultu uprchl. Ošetřila jsem studenta, jak nejlépe jsem mohla, ale byl převezen do nemocnice.“\n\nDoktorka se na vás pronikavě podívá a naléhá: „Prosím, nikomu o tom neříkej. Nechceme, aby se zprávy o aktivitách tohoto kultu dostaly na veřejnost, pokud se policie sama nerozhodne zveřejnit podrobnosti.“\n\nZískejte 2 Žetony Stopy."
+EventAskAboutBloodPass.button1,Pokračovat
+TokenDoctor2.text,"Doktorka Barnettová se vrátila k čištění svého krví potřísněného vybavení."
+TokenDoctor2.button1,{action} Odhalit Hvězdný kalendář
+TokenSearchMedOfficeRight.text,"Doktorka Barnettová nechala svůj poznámkový blok ležet na pracovní ploše. Pokud byste do něj nahlédli, aniž by si toho všimla, mohli byste najít cenné informace."
+TokenSearchMedOfficeRight.button1,{action} Prohledat
+EventLibraryPapersNoEvidence.text,"Howard Bechman je zcela pohroužený do knihy, kterou čte, takže máte dobrou příležitost prozkoumat jeho poznámky {observation}."
+EventSearchLibraryPapersLibrarianGuilty.button1,Pokračovat
+EventLibraryPapersInnocent.text,"Howard Bechman je zcela pohroužený do knihy, kterou čte, takže máte dobrou příležitost prozkoumat jeho poznámky {observation}."
+EventLibraryPapersInnocent.button1,Pokračovat
+EventDoctorGuiltyEvidenceNotepad.text,"Předstíráte zájem o unikátní lékařské vybavení, které je na odiv, zatímco se pokoušíte číst její poznámky, aniž by si toho všimla {observation}."
+EventDoctorGuiltyNotepad.button1,Pokračovat
+EventDoctorGuiltyEvidenceNotepad.button1,Pokračovat
+EventDoctorNoEvidenceNotepad.text,"Předstíráte zájem o unikátní lékařské vybavení, zatímco se pokoušíte číst její poznámky, aniž by si toho všimla {observation}."
+EventDoctorNoEvidenceNotepad.button1,Pokračovat
+EventDoctorInnocentNotepad.text,"Předstíráte zájem o unikátní lékařské vybavení, zatímco se pokoušíte číst její poznámky, aniž by si toho všimla {observation}."
+EventDoctorInnocentNotepad.button1,Pokračovat
+EventNotepadGuiltyEvidenceTestFail.text,"Když se ponoříte do poznámek doktorky Barnettové, přestanete dávat pozor na její pohled. Jakmile si všimne, že prohlížíte její poznámky, rychle k vám přistoupí, vytrhne blok z vašich rukou a schová ho do kapsy svého kabátu. Poté se vrací k čištění svého vybavení.\n\n„To od vás nebylo příliš zdvořilé,“ prohlásí. „Tohle jsou moje soukromé lékařské poznámky, proto vás žádám, abyste je považoval za důvěrné informace. Asi mě vaše zvědavost nepřekvapuje, vzhledem k čerstvým skvrnám od krve v místnosti, ale doufám, že chápete, proč musím detaily uchovat v tajnosti.“\n\nZískejte 1 Žeton Stopy a odstraňte tento Žeton Prohledat."
+EventNotepadGuiltyEvidenceTestFail.button1,Pokračovat
+EventNotepadNoEvidenceFail.text,"Když se ponoříte do poznámek doktorky Barnettové, přestanete dávat pozor na její pohled. Jakmile si všimne, že prohlížíte její poznámky, rychle k vám přistoupí, vytrhne blok z vašich rukou a schová ho do kapsy svého kabátu. Poté se vrací k čištění svého vybavení.\n\n„To od vás nebylo příliš zdvořilé,“ prohlásí. „Tohle jsou moje soukromé lékařské poznámky, proto vás žádám, abyste je považoval za důvěrné informace. Asi mě vaše zvědavost nepřekvapuje, vzhledem k čerstvým skvrnám od krve v místnosti, ale doufám, že chápete, proč musím detaily uchovat v tajnosti.“\n\nZískejte 1 Žeton Stopy a odstraňte tento Žeton Prohledat."
+EventNotepadNoEvidenceFail.button1,Pokračovat
+EventNotepadGuiltyEvidenceTestPass.text,"Vaše pozorování se vyplatilo. Doktorka Barnettová si vůbec nevšimla, že čtete její poznámky.\n\nVaše čtení odhalí důležitou stopu. Během nedávného incidentu na univerzitní půdě byl jeden student zraněn někým, koho doktorka označuje jako „člena kultu“. Je jasné, že je zapojena do tohoto temného společenství, a tudíž jí nelze věřit.\n\nZískejte 2 Žetony Stopy a unikátní předmět Chybějící vodítko. Odstraňte tento Žeton Prohledat."
+EventNotepadGuiltyEvidenceTestPass.button1,Pokračovat
+EventNotepadNoEvidencePass.text,"Doktorka Barnettová si nevšimla, že čtete její poznámky. Detaily popisují událost, kdy byl student na univerzitní půdě zraněn při potyčce. Přestože zranění nebylo smrtelné, rána byla zasažena přesně tak, aby způsobila velkou bolest a dlouhou rekonvalescenci. S ohledem na svědky, kteří potvrdili, že útočník byl členem nechvalně známého kultu, vás krutost tohoto činu nepřekvapuje.\n\nZískejte 1 Žeton Stopy a odstraňte tento Žeton Prohledat."
+EventNotepadNoEvidencePass.button1,Pokračovat
+TokenExploreMedToWarehouse.text,"Za těmito dveřmi se nachází skladovací místnost."
+TokenExploreMedToWarehouse.button1,{action} Prozkoumat
+EventEnterStorageRoom.text,"Místnost je, jak byste očekávali, poněkud zaprášená. Nejste si jisti, co byste zde mohli najít, ale několik míst vypadá, že by mohla stát za prohledání.\n\nVzadu v místnosti je stůl, který vypadá, že byl nedávno použit. Dvě bedny, jedna uprostřed místnosti a druhá v rohu vpravo, se zdají být novým přírůstkem v jinak obyčejném interiéru.\n\nUmístěte {c:TileStorageRoom}, Žeton Zdi a 3 Žetony Prohledat, jak je uvedeno."
+EventEnterStorageRoom.button1,Pokračovat
+TokenSearchWarehouseTopLeft.text,"Velká zásuvka ve stole má rukojeť bez prachu. Někdo ji musel použít v posledních dnech."
+TokenSearchWarehouseTopLeft.button1,{action} Prohledat
+EventWarehouseDeskGuiltyEvidence.text,"Uvnitř zásuvky vidíte tmavou látku. Když ji vytáhnete na světlo, odhalí se dlouhý plášť. V kapse najdete lístek adresovaný profesoru Smithovi.\n\nNa něm stojí: „Jako nový člen našeho řádu přijmi tento učňovský plášť a sigil. Noste je s hrdostí ve službě Yigovi.“ Když se ponoříte hlouběji do kapsy, najdete sigil zmíněný v poznámce. Vidíte, že je ozdoben velkým zeleným okem.\n\nZískejte unikátní předmět Sigil kultu, 2 Žetony Stopy a odstraňte tento Žeton Prohledat."
+EventSearchDeskProfessorGuilty.button1,Pokračovat
+EventWarehouseDeskGuiltyEvidence.button1,Pokračovat
+EventWarehouseDeskNoGuiltyEvidence.text,"K vašemu překvapení je zásuvka prázdná. Cokoli tu bylo, muselo být nedávno odstraněno {observation}."
+EventWarehouseDeskNoGuiltyEvidence.button1,Pokračovat
+EventWarehouseDeskObservationFail.text,"Nevidíte nic jiného než prázdnou zásuvku.\n\nOdstraňte tento Žeton Prohledat."
+EventWarehouseDeskObservationFail.button1,Pokračovat
+EventWarehouseDeskObservationPass.text,"Co to je? Všimnete si kousku látky, která vypadá stejně jako róba, kterou měl na sobě člověk, který při vašem příchodu spěchal z budovy. Mohla tu být uschována róba člena kultu?\n\nZískejte 1 Žeton Stopy a odstraňte tento Žeton Prohledat."
+EventWarehouseDeskObservationPass.button1,Pokračovat
+EventSearchDeskProfessorInnocent.text,"K vašemu překvapení je zásuvka prázdná. Cokoli tu bylo, muselo být nedávno odstraněno {observation}."
+EventSearchDeskProfessorInnocent.button1,Pokračovat
+TokenSearchWarehouseTopRight.text,"Tato bedna je docela pevná, ale můžete se pokusit ji rozbít silou. Na druhou stranu je v ní díra, do které můžete strčit ruku a prozkoumat, co je uvnitř."
+TokenSearchWarehouseTopRight.button1,{action} Rozbít
+TokenSearchWarehouseTopRight.button2,{action} Sáhnout dovnitř
+EventBreakWarehouseCrateTop.text,"Když udeříte do bedny, snažíte se vyvinout dostatečnou sílu, abyste ji rozbili, ale zároveň abyste nepoškodili obsah uvnitř. Kdybyste měli vhodný předmět, mohli byste mít nad úderem větší kontrolu {strength}. Můžete upravit svůj výsledek o +1 nebo -1, pokud máte Těžkou zbraň."
+EventBreakWarehouseCrateTop.button1,Pokračovat
+EventBreakWarehouseCrateTopFail.text,"Vaše údery jsou příliš opatrné a rána se od pevných prken odrazí."
+EventBreakWarehouseCrateTopFail.button1,Pokračovat
+EventBreakWarehouseCrateTopPass.text,"Použijete přesně tolik síly, kolik je potřeba, a prorazíte dřevěnou bariéru s dostatečně lehkým úderem, aby nedošlo k poškození obsahu. Uvnitř bedny najdete sadu jehel označených jako „Sedativa“. Po všem, čím jste si prošli, si jednu raději vezmete.\n\nZískejte běžný předmět Sedativa a odstraňte tento Žeton Prohledat."
+EventBreakWarehouseCrateTopPass.button1,Pokračovat
+EventBreakWarehouseCrateTopExcessive.text,"Při rozbití dřevěné bedny se její obsah zničil. Omylem jste rozdrtili sadu jehel se sedativy, které musela doktorka Barnettová nedávno objednat.\n\nI když vás mrzí způsobená škoda, využijete situaci a vezmete si jednu z dřevěných desek, které se uvolnily při vašem útoku.\n\nZískejte běžný předmět Prkno a odstraňte tento Žeton Prohledat."
+EventBreakWarehouseCrateTopExcessive.button1,Pokračovat
+EventReachInTopWarehouseCrate.text,"Pomalu sáhnete dovnitř, zvědaví, co tam najdete {observation}+{agility}."
+EventReachInTopWarehouseCrate.button1,Pokračovat
+EventReachInTopWarehouseCrateFail.text,"Nepostupujete opatrně, jak by bylo potřeba, a neohrabaně šmátráte ve tmě. Najednou ucítíte ostré bodnutí a reflexivně ruku odtáhnete. Při tom si odřete ruku a převrhnete bednu, což doprovází zvuk tříštícího se skla. Bedna byla plná injekčních stříkaček, ale žádná z nich už není v celku.\n\nVezměte si 2 Karty Zranění otočené lícem dolů a odstraňte tento Žeton Prohledat."
+EventReachInTopWarehouseCrateFail.button1,Pokračovat
+EventReachInTopWarehouseCratePass.text,"Opatrně prohledáváte bednu a s velkou péčí vytáhnete skleněný předmět s ostrou jehlou na konci.\n\nZískejte běžný předmět Sedativa a odstraňte tento Žeton Prohledat."
+EventReachInTopWarehouseCratePass.button1,Pokračovat
+TokenSearchWarehouseBottomRight.text,"Velká bedna leží v rohu místnosti a nedostatek prachu naznačuje, že sem byla přivezena nedávno. Ačkoli je nová ve skladovací místnosti, bedna vykazuje známky stáří, protože dřevo vypadá poněkud ztrouchnivělé. Nemělo by být příliš obtížné ji rozbít. Můžete se pokusit bednu rozbít, ale příliš silný úder by mohl zničit, co je uvnitř."
+TokenSearchWarehouseBottomRight.button1,{action} Rozbít bednu
+EventBreakBottomCrateWarehouse.text,"Rozmáchnete se na křehkou bednu. S vhodným nástrojem byste mohli lépe kontrolovat destrukci {strength}. Můžete upravit výsledek testu o +1 nebo -1, pokud máte Těžkou zbraň."
+EventBreakBottomCrateWarehouse.button1,Pokračovat
+EventBreakBottomWarehouseCrateFail.text,"Bedna je sice ztrouchnivělá, ale i tak bude potřeba větší rána, aby se rozbila."
+EventBreakBottomWarehouseCrateFail.button1,Pokračovat
+EventBreakBottomWarehouseCratePass.text,"Použijete přesně tolik síly, kolik je třeba, a prorazíte bednu. K vašemu překvapení najdete různé artefakty, které se zdají být jihoamerického původu. Domníváte se, že musely být nalezeny při pátrání po mocných artefaktech, jako je Hvězdný kalendář. Přítomnost těchto předmětů na Miskatonické univerzitě vás znepokojuje, protože to naznačuje, že Kult Zeleného oka může mít na této akademické půdě již hluboké kořeny.\n\nZískejte 2 Žetony Stopy a odstraňte tento Žeton Prohledat."
+EventBreakBottomWarehouseCratePass.button1,Pokračovat
+EventBreakBottomWarehouseCrateTooStrong.text,"Křehká bedna se roztříští na kousky a její obsah je zničen na drobné střepy. Zbytky vypadaly jako nějaká keramika, ale z trosek před vámi nelze nic více vyčíst.\n\nOdstraňte tento Žeton Prohledat."
+EventBreakBottomWarehouseCrateTooStrong.button1,Pokračovat
+TokenWarehouseDoorLocked.text,"Dveře jsou chráněny energetickou bariérou, která vám brání se dotknout kliky."
+TokenWarehouseDoorLocked.button1,Pokračovat
+EventWarehouseDoorLocks.text,"Jakmile zavřete zásuvku, dveře do skladovací místnosti se zapečetí nadpřirozenou energií.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventWarehouseDoorLocks.button1,Pokračovat
+SpawnWarehouseHuntingDeepOne.button1,Pokračovat
+EventUnlockWarehouseDoor.text,"Tvor se promění v kaluž vody a během několika vteřin se vypaří. Jakmile poslední kapky vlhkosti zmizí z místnosti, energetická bariéra chránící dveře také zmizí. Ale místnost se nevrátí do svého původního stavu, což vás nutí přijmout fakt, že Hvězdný kalendář je ještě mocnější, než jste si mysleli.\n\nOdstraňte Žeton Prozkoumat, jak je uvedeno, a vezměte si 1 Kartu Strachu otočenou lícem dolů."
+SpawnWarehouseHuntingDeepOne.text,"Vodní tvor se spustí ze stropu, jako by kapky vody stékaly na podlahu. Vzpomínáte si na tyto hrůzné tvory z chrámu, a nyní se zdá, že vás našli, i přes velkou vzdálenost, které vás od jejich domova dělí.\n\nNáhle se i skladovací místnost začne měnit a připomínat chrám, který se rozpadá na kamenné trosky. Studený vzduch je ochromující a vy vidíte svůj dech, jak se před vámi mění v páru. Vezměte si 1 Kartu Zranění otočenou lícem dolů (lze předejít úspěšným hodem na {strength}). Okamžitě ukončete svůj tah a stáváte se Zadrženým.\n\nNahraďte skladovací místnost dílkem {c:TileBrokenTemple} a umístěte Nevyzpytatelného lovce, jak je uvedeno."
+EventUnlockWarehouseDoor.button1,Pokračovat
+TokenExploreEntryHallToDean.text,"Tyto dveře vedou do děkanovy kanceláře."
+TokenExploreEntryHallToDean.button1,{action} Prozkoumat
+EventEnterDeansOffice.text,"Před vámi se rozprostírá úhledná kancelář s luxusním stolem. Také vidíte velkou mahagonovou polici plnou různých cetek a knih. Ano, tohle je určitě Eugeneova kancelář. Vždy měl slabost pro kvalitní starožitný nábytek.\n\nUmístěte {c:TileDeanOffice}, Žeton Dveří a Žeton Zdi, jak je uvedeno."
+EventEnterDeansOffice.button1,Pokračovat
+EventAddDeansOfficeSearchTokenDesk.button1,Pokračovat
+EventAddDeansOfficeSearchTokenBottom.text,"Velké mahagonové police obsahují spoustu zajímavých předmětů a knih.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddDeansOfficeSearchTokenDesk.text,"Abyste si ověřili děkanovu nevinu, víte, že nejlepší místo k prozkoumání je jeho stůl s velkou žulovou deskou.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddDeansOfficeSearchTokenBottom.button1,Pokračovat
+EventAddEugeneClemens.text,"Za velkým nádherným stolem spatříte sedícího Eugena Clemense, jak přerovnává nějaké papíry. Když si vás všimne při vstupu do místnosti, prohlásí: „Ah! Jste tu brzy na naši schůzku. Rád vás vidím, ale budete na mě muset ještě chvíli posečkat, než dokončím pár úkolů.“\n\nUmístěte žeton postavy Eugene Clemens, jak je uvedeno."
+EventAddEugeneClemens.button1,Pokračovat
+EventAddDoorDeanToMeetingRoom.text,"V zadní části místnosti vidíte další dveře. Pokud si správně pamatujete, vedou do zasedací místnosti pro zaměstnance.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventAddDoorDeanToMeetingRoom.button1,Pokračovat
+TokenSearchDeanDesk.text,"S děkanem Clemensem sedícím u svého stolu nemáte šanci tento stůl prozkoumat."
+TokenSearchDeanDesk.button1,Pokračovat
+TokenSearchDeanBottom.text,"Vidíte police plné starožitností, artefaktů a starých knih. Určitě tu najdete něco zajímavého. Díky vašemu dlouholetému přátelství s Eugenem víte, že by mu nevadilo, kdybyste si něco vzali."
+TokenSearchDeanBottom.button1,{action} Vzít Bibli
+TokenSearchDeanBottom.button2,{action} Vzít Kompas z jiného světa
+TokenSearchDeanBottom.button3,{action} Vzít Lebka z drahokamů
+TokenSearchDeanBottom.button4,{action} Vzít Lékařskou učebnici
+EventGainBible.text,"S ohledem na mentální trauma, kterým jste v posledních týdnech prošli, víte, že svatá slova jsou vaším nejlepším spojencem.\n\nZískejte běžný předmět Bible krále Jakuba a odstraňte tento Žeton Prohledat."
+EventGainBible.button1,Pokračovat
+EventGainOtherworldlyCompass.text,"Tento kompas je v sobě skrývá mnohem víc, než se na první pohled zdá.\n\nZískejte Kompas z jiného světa a odstraňte tento Žeton Prohledat."
+EventGainOtherworldlyCompass.button1,Pokračovat
+EventGainJeweledSkull.text,"Tato lebka vám připomíná poklady, které jste našli při své expedici za Hvězdným kalendářem.\n\nZískejte běžný předmět Lebka z drahokamů a odstraňte tento Žeton Prohledat."
+EventGainJeweledSkull.button1,Pokračovat
+EventGainMedicalTextbook.text,"S ohledem na fyzická zranění, která jste utrpěli, by bylo vhodné naučit se nějaké lékařské postupy.\n\nZískejte běžný předmět Lékařská učebnice a odstraňte tento Žeton Prohledat."
+EventGainMedicalTextbook.button1,Pokračovat
+TokenDean.text,"Eugene Clemens sedí za svým luxusním stolem a pracuje na univerzitních dokumentech, přičemž popíjí sklenici ledového čaje. Víte, že potřebujete prohledat jeho stůl, a tak hledáte způsob, jak ho dostat z kanceláře. Napadají vás dvě možnosti.\n\nNa druhou stranu, pokud mu už důvěřujete, může vyšetřovatel držící Hvězdný kalendář Eugeneovi tento artefakt odhalit."
+TokenDean.button1,{action} Rozlít čaj na Eugena
+TokenDean.button2,{action} Tvrdit, že má špinavý límec
+EventKnockTeaOver.text,"Kdybyste dokázali rychle a přesně rozlít čaj do jeho klína, Eugene by musel jít do koupelny, aby se očistil {agility}."
+EventKnockTeaOver.button1,Pokračovat
+TokenDean.button3,{action} Odhalit Hvězdný kalendář
+EventConvinceDeanCollarDirty.text,"Kdybyste ho přesvědčili, že má na límci skvrnu, pravděpodobně by šel do koupelny, aby si to sám zkontroloval {influence}."
+EventConvinceDeanCollarDirty.button1,Pokračovat
+EventKnockTeaFail.text,"Když předstíráte, že klopýtnete poblíž jeho stolu, mávnete rukou směrem ke sklenici. Nicméně vaše obratnost není dostatečná a čaj rozlijete na podlahu. Eugene se zdvořile zasměje a vy se okamžitě omluvíte a začnete uklízet nepořádek."
+EventCollarDirtyFail.button1,Pokračovat
+TokenDeanTeaFailed.text,"Váš plán s čajem nevyšel, ale máte v záloze další nápad.\n\nStejně jako dříve, pokud máte Hvězdný kalendář a považujete Eugena za důvěryhodného, můžete mu ho odhalit."
+TokenDeanTeaFailed.button1,{action} Tvrdit, že má špinavý límec
+TokenDeanTeaFailed.button2,{action} Odhalit Hvězdný kalendář
+EventKnockTeaFail.button1,Pokračovat
+EventKnockTeaPass.text,"Když mistrovsky předstíráte, že klopýtáte přes jeho koberec, snažíte se vyrovnat u jeho stolu a převrhnete čaj přímo do Eugeneova klína. S trhnutím vyskočí ze židle a trochu zabručí. Po srdečné omluvě vás ujistí, že se nic nestalo. „Nic se nestalo. Půjdu se umýt do koupelny. Hned se vrátím.“"
+EventKnockTeaPass.button1,Pokračovat
+TokenDeanReadyToMove.text,"Děkan Clemens se nezdá být ochotný mluvit, zatímco míří směrem do koupelny."
+TokenDeanReadyToMove.button1,Pokračovat
+EventCollarDirtyFail.text,"Vaše přesvědčování není příliš přesvědčivé. Eugene je příliš soustředěný na svou práci, než aby věnoval vašim slabým pokusům o větší pozornost. „Jsem si jistý, že to bude v pořádku,“ ujistí vás a vrací se ke čtení dokumentů na svém stole."
+EventCollarDirtyPass.text,"Když Eugena Clemense ujišťujete, že čerstvá skvrna na jeho límci vypadá opravdu nevzhledně, odtáhne židli od stolu a vydá se k nejbližšímu zrcadlu. „Děkuji, že jsi mi to řekl. Hned to napravím.“"
+EventCollarDirtyPass.button1,Pokračovat
+TokenDeanHall1stTime.text,"Hned se vrátím, jen co se umyju."
+TokenDeanHall1stTime.button1,Pokračovat
+EventDeanMovesToHall1stTime.text,"Děkan Clemens spěchá do koupelny, aby se očistil. Nyní budete mít možnost prohledat jeho stůl a najít nějaké stopy, ale víte, že máte jen omezený čas, než se vrátí.\n\nPřesuňte Eugena Clemense, jak je uvedeno."
+EventDeanMovesToHall1stTime.button1,Pokračovat
+EventDeanBathroomLobby.text,"Eugene pokračuje v cestě do koupelny."
+EventDeanBathroomLobby.button1,Pokračovat
+TokenDeanBathroomLobby.text,"Hned se vrátím, jen co se umyju."
+TokenDeanBathroomLobby.button1,Pokračovat
+EventDeanMovesToBathroom.button1,Pokračovat
+EventDeanEntersBathroom.text,"Eugene dorazí do koupelny, prohlédne si a očistí své oblečení a připraví se na návrat do kanceláře.\n\nPřesuňte Eugena Clemense, jak je uvedeno."
+EventDeanEntersBathroom.button1,Pokračovat
+TokenDeanBathroom.text,"Eugene je příliš soustředěný na čištění, než aby s vámi mluvil."
+TokenDeanBathroom.button1,Pokračovat
+EventDeanBathroomLobbyRevealed.text,"Přesuňte Eugena Clemense, jak je uvedeno."
+EventDeanBathroomLobbyRevealed.button1,Pokračovat
+EventDeanBathroomLobbyNOTRevealed.text,"Eugene zmizí z dohledu, když vstoupí do dveří koupelny. Odstraňte Eugena Clemense z desky."
+EventDeanBathroomLobbyNOTRevealed.button1,Pokračovat
+EventAddDeanTokenBathroomLobby.text,"Eugene Clemens míří do koupelny.\n\nUmístěte Eugena Clemense, jak je uvedeno."
+EventAddDeanTokenBathroomLobby.button1,Pokračovat
+EventDeanReturnsBathroomLocked.text,"Když zjistí, že jsou dveře zamčené, Dean Clemens předpokládá, že je koupelna obsazená, a začne se vracet zpět do své kanceláře.\n\nPřesuňte Eugena Clemense, jak je uvedeno."
+EventDeanReturnsBathroomLocked.button1,Pokračovat
+EventDeanDisappearsIntoBathroom.text,"Eugene konečně dorazí do cíle a zmizí za dveřmi koupelny.\n\nOdstraňte Eugena Clemense z desky."
+EventDeanDisappearsIntoBathroom.button1,Pokračovat
+EventDeanEarlyReturn.text,"Vrátí se, aniž by se stihl vyčistit, Dean Clemens se vrací do své kanceláře. Vědomi si jeho brzkého návratu, jste se postarali o to, aby jeho věci byly vráceny na své místo.\n\nEugene se posadí do své kožené židle a vrací se ke své práci.\n\nPřesuňte Eugena Clemense, jak je uvedeno, a odstraňte jakýkoliv Žeton Prohledat na jeho stole (pokud tam nějaký zůstal)."
+EventDeanEarlyReturn.button1,Pokračovat
+TokenDeanAfterReturn.text,"Eugene Clemens se vrátil ke své práci. „Brzy bych měl být připraven na naši schůzku,“ řekne s úsměvem.\n\nVyšetřovatel, který drží Hvězdný kalendář, by mu ho mohl ukázat, pokud mu důvěřujete."
+TokenDeanAfterReturn.button1,{action} Odhalit Hvězdný kalendář
+EventDeanLeavesBathroom.text,"Po umytí v koupelně se Eugene vrací do své kanceláře.\n\nPřesuňte Eugena Clemense, jak je uvedeno."
+EventDeanLeavesBathroom.button1,Pokračovat
+TokenDeanHall2ndTime.text,"Pokud se mnou chcete mluvit, přijďte prosím do mé kanceláře."
+TokenDeanHall2ndTime.button1,Pokračovat
+EventDeanReturnsFullPath.text,"Dean Clemens se konečně vrací do své kanceláře. Vědomi si jeho brzkého návratu, jste se postarali o úklid jeho stolu, abyste zamaskovali své zásahy.\n\nPřesuňte Eugena Clemense, jak je uvedeno, a odstraňte jakýkoliv Žeton Prohledat na jeho stole."
+EventDeanReturnsFullPath.button1,Pokračovat
+TokenSearchDeanDeskDrawerLock.text,"Zásuvka je zamčená, ale mohli byste se pokusit ji odemknout. Musí v ní být něco důležitého. Můžete se pokusit odemknout zámek {agility}."
+TokenSearchDeanDeskDrawerLock.button1,{action} Odemknout zámek
+EventUnlockDeanDeskDrawer.text,"Po odemknutí zásuvky vidíte uvnitř ležet osamělý kufřík. Zdá se, že k jeho otevření je potřeba konkrétní kombinace."
+PuzzleUnlockDeanDeskDrawer.button1,Vyřešeno
+EventUnlockDeanDeskDrawer.button1,Pokračovat
+TokenSearchDeanBriefcase.button1,{action} Pokusit se vyřešit hádanku
+EventDeanGuiltyEvidence.text,"S nadšením otevřete kufřík, ale částečně litujete svého rozhodnutí, když uvidíte malou skleněnou nádobku. Uvnitř je zakrvavený prst, který musel být uříznut dnes ráno. Jen si můžete představit, jaký osud potkal zbytek těla.\n\nV malé kapse podšívky kufříku spatříte lístek. Rozbalíte ho a s nechutí čtete následující text adresovaný vedení Kultu Zeleného oka:\n\n„Já, Eugene Clemens, děkan Miskatonické univerzity, jsem provedl iniciační oběť. Čerstvý prst v této nádobě je důkazem, že jsem splnil zadaný úkol. Prosím, přijměte mě mezi vaše vážené členy.“\n\nJiž déle nepochybujete o důvěře ke svému starému příteli a sklesle vracíte kufřík i zásuvku zpět na jejich místo, doufaje, že si nevšimne žádných stop po vašem zásahu.\n\nZískejte 2 Žetony Stopy, unikátní předmět Forenzní důkazy a odstraňte tento Žeton Prohledat.\n\nIhned ukončete svůj tah, stáváte se Ochromeným."
+TokenSearchDeanBriefcase.text,"Kožený kufřík je uvnitř zásuvky, ale neotevře se bez zadání správné kombinace. Můžete se pokusit vyřešit hádanku {observation}."
+PuzzleBriefcaseCode.button1,Vyřešeno
+EventDeanGuiltyEvidence.button1,Pokračovat
+EventDeanNoEvidence.text,"S úlevou zjistíte, že v kufříku jsou pouze oficiální dokumenty týkající se Miskatonické univerzity a některé z Eugeneových filantropických aktivit. Rychle vrátíte kufřík a zásuvku zpět na své místo, aby nebyly vidět stopy po vašem zásahu.\n\nPřesto nejste ještě přesvědčeni. Vzpomínáte si, že vám před lety Eugene svěřil tajemství, kde se nacházejí jeho speciální úkryty pro věci, které chtěl skrýt před zvědavýma očima svých kolegů na univerzitě. Bohužel, roky vám kalí paměť. Kde to jen bylo?\n\nStáváte se Soustředěným a odstraňte tento Žeton Prohledat."
+EventDeanNoEvidence.button1,Pokračovat
+TokenExploreMeetingRoomToDean.text,"Tyto dveře vedou do kanceláře děkana Clemense."
+TokenExploreMeetingRoomToDean.button1,{action} Prozkoumat
+TokenExploreDeanToMeetingRoom.text,"Tyto dveře vedou do zasedací místnosti pro zaměstnance."
+TokenExploreDeanToMeetingRoom.button1,{action} Prozkoumat
+EventRememberDeansHidingPlace.text,"Snažíte se rozpomenout, kde měl Eugene svůj tajný úkryt {lore}."
+EventRememberDeansHidingPlace.button1,Pokračovat
+EventRememberHidingPlaceFail.text,"Ať se snažíte sebevíc, prostě si nemůžete vzpomenout, kde to bylo."
+EventRememberHidingPlaceFail.button1,Pokračovat
+EventRememberHidingPlaceDecent.text,"Vaše vzpomínky jsou nejasné, ale jste si jistí, že tajný úkryt byl buď v podstavci řečnického pultu v zasedací místnosti, nebo ve školním glóbusu ve třídě.\n\nUmístěte 2 Žetony Prohledat dle instrukcí."
+EventRememberHidingPlaceDecent.button1,Pokračovat
+EventRememberHidingPlacePass.text,"Ach, ano! Vzpomínáte si, že to bylo uvnitř glóbusu ve velké třídě.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventRememberHidingPlacePass.button1,Pokračovat
+EventRememberHidingPlacePass2.text,"Ach, ano! Vzpomínáte si, že to bylo uvnitř glóbusu ve velké třídě."
+EventRememberHidingPlacePass2.button1,Pokračovat
+EventRememberHidingPlaceDecent2.text,"Vaše vzpomínky jsou nejasné, ale jste si jistí, že tajný úkryt byl buď v podstavci řečnického pultu v zasedací místnosti, nebo ve školním glóbusu."
+EventRememberHidingPlaceDecent2.button1,Pokračovat
+EventRememberHidingPlaceDecent3.text,"Vaše vzpomínky jsou nejasné, ale jste si jistí, že tajný úkryt byl buď v podstavci řečnického pultu v zasedací místnosti, nebo ve školním glóbusu.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventRememberHidingPlaceDecent3.button1,Pokračovat
+EventRememberHidingPlaceDecent4.text,"Vaše vzpomínky jsou nejasné, ale jste si jistí, že tajný úkryt byl buď v podstavci řečnického pultu v zasedací místnosti, nebo ve školním glóbusu.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventRememberHidingPlaceDecent4.button1,Pokračovat
+TokenEntryHallToClass.text,"Tyto dveře vedou do speciální učebny pro postgraduální kurzy."
+TokenEntryHallToClass.button1,{action} Prozkoumat
+EventEnterClassroom.text,"Velká učebna je stará a potřebovala by rekonstrukci. Nicméně, její starožitná povaha přidává na jejím kouzlu.\n\nUmístěte {c:TileLargeClass}, jak je uvedeno."
+EventEnterClassroom.button1,Pokračovat
+EventAddBlackboardSearchToken.text,"Tabule je pokryta různými poznámkami.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddBlackboardSearchToken.button1,Pokračovat
+EventAddSchoolDeskSearchToken.text,"Na stole v zadní části místnosti jsou stále rozložené nějaké papíry. Mohl si student zapomenout vzít své poznámky?\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddSchoolDeskSearchToken.button1,Pokračovat
+EventAddProfessorSmith.text,"Váš starý mentor, profesor Smith, si pročítá některé ze svých poznámek.\n\nUmístěte žeton postavy Profesor Smith, jak je uvedeno."
+EventAddProfessorSmith.button1,Pokračovat
+EventAddExploreTokenMeetingRoomToClass.text,"Dveře v zadní části třídy by měly vést do zasedací místnosti pro zaměstnance.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventAddExploreTokenMeetingRoomToClass.button1,Pokračovat
+EventAddGuaranteedGlobe.text,"Ach, glóbus, o kterém se vám Eugene svěřil, je v rohu. Měli byste se tam podívat, než dojdete k závěru o jeho vině či nevině.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddGuaranteedGlobe.button1,Pokračovat
+EventAddGlobePartialMemory.text,"Ach, tady je ten glóbus, na který jste si vzpomněli. Skrýval tam Eugene své tajemství? Nebo to bylo pódium v zasedací místnosti? Prostě si nejste jisti.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddGlobePartialMemory.button1,Pokračovat
+TokenSearchClassBlackboard.text,"Na tabuli je překvapivě velké množství textu. Je to rukopis profesora Smithe?"
+TokenSearchClassBlackboard.button1,{action} Prohledat
+EventReadBlackboard.text,"Text je uspořádán téměř jako informační schéma o kultech v Brazílii a jejich vzájemných spojeních, stejně jako o pověstných relikviích moci, které tyto kulty údajně vlastní. Je jasné, že pověsti o Hvězdném kalendáři nadále rostou a vzbuzují zvědavost. Doufáte, že je to pouze nevinné pátrání po vědění, a ne zlověstná snaha o získání moci. Ať tak či onak, pochopení, že předmět ve vašem držení je středem takto podrobného výzkumu, vás činí velmi neklidnými.\n\nZískejte 2 Žetony Stopy, vezměte si 1 Kartu Strachu otočenou lícem dolů a odstraňte tento Žeton Prohledat."
+EventReadBlackboard.button1,Pokračovat
+TokenProfessor.text,"Profesor Smith se plně soustředí na papíry před sebou.\n\nMůžete ho pozdravit, nebo mu ukázat Hvězdný kalendář, pokud mu věříte."
+TokenProfessor.button1,{action} Promluvit
+TokenProfessor.button2,{action} Odhalit Hvězdný kalendář
+EventSpeakToProfessorSmith.text,"Přistoupíte ke svému bývalému mentorovi, pozdravíte ho podáním ruky a přátelským úsměvem. „Už je to dlouho, co jste byl v této třídě! Jak rád vás vidím!“ Se srdečným smíchem se zeptá: „Jste tu pro další vzdělání od starého profesora?“\n\nJeho výraz ve tváři se však brzy změní, když si uvědomí, že nejste v náladě na žerty. „Šíří se zvěsti, že jste byl nedávno na nějaké expedici v zahraničí. Je nějaká šance, že jste šel hledat tu brazilskou relikvii?“\n\nPokoušíte se odklonit otázku a mluvíte o svém zájmu o relikvie a starověké rukopisy, doufaje, že společné zájmy ho odvedou od vaší expedice, dokud se nebudete cítit pohodlně na toto téma začít sami {influence}."
+EventSpeakToProfessorSmith.button1,Pokračovat
+EventDeflectProfessorFail.text,"Vaše trapné pokusy o odklonění otázky jen přimějí profesora Smithe pozvednout obočí. „Vyhýbáte se otázce, že? Pokud o tom nechcete mluvit, chápu to. Ale pamatujte, že se mi můžete svěřit, pokud něco víte o té relikvii.“ Ale můžete mu opravdu důvěřovat?\n\nOtočte 1 Kartu Strachu lícem nahoru."
+EventDeflectProfessorFail.button1,Pokračovat
+TokenProfessor2.text,"Profesor Smith je stále plně soustředěný na své čtení.\n\nPokud mu důvěřujete, může vyšetřovatel držící Hvězdný kalendář zvolit možnost ho odhalit."
+TokenProfessor2.button1,{action} Odhalit Hvězdný kalendář
+EventDeflectProfessorMedium.text,"Vaše lest se zdá být úspěšná, odvede ho od jeho zvídavé otázky a začnete spolu konverzovat o nedávném výzkumu a artefaktech, které univerzitu zajímají. „Víte,“ prohlásí, „nedávno byla univerzitě darována zajímavá nová relikvie. Možná byste ji využil, když jste fanouškem starověkých artefaktů. Koneckonců, nejsem moc na šperky.“\n\nZískejte běžný předmět Hadí náramek a 1 Žeton Stopy."
+EventDeflectProfessorMedium.button1,Pokračovat
+EventDeflectProfessorPass.text,"Vaše nadšení pro toto téma profesora zcela pohltí. Po krátké diskuzi se profesor Smith usměje a nabídne vám rukopis z hromady papírů, které právě pročítal. „Měl byste si to vzít s sebou. Už to nepotřebuji, a pro vás to bude jistě fascinující.“\n\nZískejte kouzlo Vynucené učení a 1 Žeton Stopy."
+EventDeflectProfessorPass.button1,Pokračovat
+TokenMeetingRoomToClass.text,"Tyto dveře vedou do speciální učebny pro postgraduální kurzy."
+TokenMeetingRoomToClass.button1,{action} Prozkoumat
+TokenSearchClassTopRight.text,"Na stole leží několik poznámek. Student je tu pravděpodobně nechal omylem."
+TokenSearchClassTopRight.button1,{action} Prohledat
+EventClassNotesProfessorGuilty.text,"Poznámky jsou napsány v portugalštině, se kterou máte jisté zkušenosti. Můžete se pokusit poznámky přečíst {lore}."
+EventClassNotesProfessorGuilty.button1,Pokračovat
+EventClassNotesProfessorInnocent.text,"Poznámky jsou napsány v portugalštině, se kterou máte jisté zkušenosti. Můžete se pokusit poznámky přečíst {lore}."
+EventClassNotesProfessorInnocent.button1,Pokračovat
+EventStudentNotesReadNoEvidenceYet.button1,Pokračovat
+PuzzleStudentNotes.button1,Vyřešeno
+EventStudentNotesReadGuiltyEvidence.button1,Pokračovat
+EventStudentNotesReadGuiltyEvidence.text,"Vaše znalost portugalštiny se vyplatila. Rozluštili jste dostatek textu, abyste zjistili, že majitel těchto poznámek viděl profesora Smithe stýkat se s členy Kultu Zeleného oka. Zdá se, že tento student zvažoval nahlásit tuto záležitost děkanovi, ale nebyl si jistý, zda mu může důvěřovat.\n\nZískejte unikátní předmět Přesvědčivý důkaz, 2 Žetony Stopy a odstraňte tento Žeton Prohledat."
+EventStudentNotesReadNoEvidenceYet.text,"Při čtení textu zjistíte, že členové Kultu Zeleného oka často navštěvují koleje a areál univerzity a hledají nové členy. Autor těchto poznámek také tvrdí, že tyto zahalené postavy byly spatřeny při rozhovorech s univerzitním personálem. To posiluje váš strach, že zůstává jen málo lidí, kterým můžete důvěřovat. Vezměte si 2 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {will}).\n\nZískejte 2 Žetony Stopy a odstraňte tento Žeton Prohledat."
+EventStudentNotesInnocent.text,"Při čtení textu zjistíte, že členové Kultu Zeleného oka často navštěvují koleje a areál univerzity a hledají nové členy. Autor těchto poznámek také tvrdí, že tyto zahalené postavy byly spatřeny při rozhoverech s univerzitním personálem. To posiluje váš strach, že zůstává jen málo lidí, kterým můžete důvěřovat. Vezměte si 2 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {will}).\n\nZískejte 2 Žetony Stopy a odstraňte tento Žeton Prohledat."
+PuzzleStudentNotes2.button1,Vyřešeno
+EventStudentNotesInnocent.button1,Pokračovat
+TokenSearchClassGlobeOnly.text,"Vzpomínáte si, že vám Eugene ukázal způsob, jak odemknout glóbus, čímž se dostanete do tajného prostoru. Profesor Smith je natolik ponořen do svého čtení, že by si neměl všimnout, že si hrajete s tak všedním předmětem. Můžete se pokusit vyřešit hádanku {observation}."
+TokenSearchClassGlobeOnly.button1,Pokračovat
+PuzzleGlobeOnly.button1,Vyřešeno
+EventGlobeOnlyGuilty.text,"Malá část glóbusu vystoupí, když dokončíte hádanku. Uvnitř najdete skleněnou nádobku s krvavým prstem, který musel být uříznut dnes ráno. Jen si můžete představit, jaký osud potkal zbytek těla.\n\nMalý lístek je omotaný kolem nádoby. Rozbalíte ho a s nechutí čtete následující text, adresovaný vedení Kultu Zeleného oka:\n\n„Já, Eugene Clemens, děkan Miskatonické univerzity, jsem provedl iniciační oběť. Čerstvý prst v této nádobě je důkazem, že jsem splnil zadaný úkol. Prosím, přijměte mě mezi vaše vážené členy.“\n\nJiž déle nepochybujete o důvěře ke svému starému příteli a sklesle vracíte nádobu a lístek zpět, jak jste je našli, a vracíte glóbus do jeho původní polohy.\n\nZískejte 2 Žetony Stopy, unikátní předmět Forenzní důkazy a odstraňte tento Žeton Prohledat.\n\nIhned ukončete svůj tah a stáváte se Ochromeným."
+EventGlobeOnlyGuilty.button1,Pokračovat
+EventGlobeOnlyInnocent.text,"S úlevou zjistíte, že uvnitř nic není, jen prach. Když už nemáte žádné další místo, kde byste mohli hledat Eugeneova možná tajemství, dojdete k závěru, že ještě nebyl zkorumpován.\n\nStáváte se Soustředěným a odstraňte tento Žeton Prohledat."
+EventGlobeOnlyInnocent.button1,Pokračovat
+TokenGlobePossible.text,"Byl to ten tajný úkryt, o kterém vám Eugene před tolika lety mluvil?"
+TokenGlobePossible.button1,{action} Prohledat
+EventGlobeNotPossibleHidingPlace.button1,Pokračovat
+EventGlobeISPossibleHidingPlace.text,"Při zkoumání glóbusu si vzpomínáte na zámek s hádankou, který děkan Clemens vždy používal k otevření tajného prostoru. Profesor Smith je natolik ponořen do svého čtení, že by si neměl všimnout, že si hrajete s tak obyčejným předmětem. Můžete se pokusit vyřešit hádanku {observation}."
+EventGlobeNotPossibleHidingPlace.text,"Při zkoumání glóbusu si uvědomíte, že toto nebyl ten správné úkryt.\n\nOdstraňte tento Žeton Prohledat."
+EventGlobeISPossibleHidingPlace.button1,Pokračovat
+TokenExploreClassToMeetingRoom.text,"Tyto dveře vedou do zasedací místnosti pro zaměstnance."
+TokenExploreClassToMeetingRoom.button1,{action} Prohledat
+EventEnterMeetingRoom.text,"Je vidět, že se zde v průběhu let konalo mnoho schůzek. Podlaha je pod židlemi poškrábaná, stůl je posetý skvrnami od kávy a stěny jsou mírně zabarvené. Přesto je místnost bez prachu a kromě papírů rozházených na stole je místnost poměrně dobře udržovaná.\n\nUmístěte {c:TileSmallClass}, jak je uvedeno."
+EventEnterMeetingRoom.button1,Pokračovat
+EventAddSearchTokenMeetingRoomDesk.text,"Papíry na stole by mohly stát za prozkoumání.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddSearchTokenMeetingRoomDesk.button1,Pokračovat
+EventAddSearchTokenMeetingRoomShelves.text,"Poličky jsou plné různých kuriozit a knih.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddSearchTokenMeetingRoomShelves.button1,Pokračovat
+EventAddExploreTokenDeanToMeeting.text,"Dveře napravo vedou do kanceláře děkana.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventAddExploreTokenDeanToMeeting.button1,Pokračovat
+EventAddExploreTokenMeetingToClass.text,"Dveře u pódia vedou do jediné učebny v této budově.\n\nUmístěte Žeton Prozkoumat, jak je uvedeno."
+EventAddExploreTokenMeetingToClass.button1,Pokračovat
+SpawnFlyingSerpentMirror.text,"Vzduchem se plazí obrovský had, který vyletí skrz zrcadlo a vznáší se před vámi. Na jeho krku je něco červeného. K vašemu zděšení se dveře zavírají a zamykají za vámi, přičemž kolem nich proudí energetické pole, které vám brání dosáhnout na kliku dveří.\n\nUmístěte Opeřeného hada a přidejte Žeton Prozkoumat, jak je uvedeno. Odstraňte tento Žeton Prohledat."
+EventAddSearchTokenSkeleton.button1,Pokračovat
+EventAddSearchTokenPodium.text,"Skoro jste zapomněli! Pódium by mohlo být tajným úkrytem, o kterém vám Eugene kdysi vyprávěl.\n\nUmístěte Žeton Prohledat, jak je uvedeno."
+EventAddSearchTokenPodium.button1,Pokračovat
+TokenSearchMeetingTable.text,"Když se podíváte na papíry, zdá se vám, že vidíte něco napsané rukopisem Howarda Bechmana, hlavního knihovníka. Možná to vypadlo z jeho složky s poznámkami."
+TokenSearchMeetingTable.button1,{action} Prohledat
+EventMeetingRoomPapersLibrarianGuilty.text,"Při pročítání papírů si všimnete, že jsou napsané nějakým kódem. Vzhledem k tomu, že znáte Howardův způsob myšlení, možná se vám podaří zjistit, co říkají, pokud vynaložíte trochu duševního úsilí ({lore}; 2)."
+EventMeetingRoomPapersLibrarianGuilty.button1,Úspěch
+EventMeetingRoomPapersLibrarianGuilty.button2,Neúspěch
+EventMeetingRoomPapersFail.text,"Bohužel, Howard použil velmi složité šifrování, které se vám nepodaří rozluštit.\n\nOdstraňte tento Žeton Prohledat."
+EventMeetingRoomPapersFail.button1,Pokračovat
+EventMeetingRoomPapersPassGuiltyEvidence.text,"Netrvá dlouho, než pochopíte Howardův kód. Šokujícím způsobem odhalíte odkazy na jeho členství v Kultu Zeleného oka. Kromě toho mu kult přidělil úkol zjistit historii Hvězdného kalendáře. Nyní víte, že mu nemůžete věřit.\n\nZískejte 2 Žetony Stopy, unikátní předmět Usvědčující důkaz a odstraňte tento Žeton Prohledat."
+EventMeetingRoomPapersPassGuiltyEvidence.button1,Pokračovat
+EventMeetingRoomPapersPassNOEvidence.text,"Stránky podrobně popisují jeho výzkum Hvězdného kalendáře, přičemž jej označuje pouze jako „Dimenzionální artefakt.“ V jeho poznámkách se tvrdí, že může mít mimozemský původ. To by vysvětlovalo podivné souhvězdí, která jsou vyryta na jeho povrchu, a která podezřele nepřipomínají žádná známá souhvězdí pozorovaná ze Země.\n\nZískejte 2 Žetony Stopy a odstraňte tento Žeton Prohledat."
+EventMeetingRoomPapersPassNOEvidence.button1,Pokračovat
+EventMeetingRoomPapersLibrarianInnocent.text,"Stránky podrobně popisují jeho výzkum Hvězdného kalendáře, přičemž jej označuje pouze jako „Dimenzionální artefakt.“ V jeho poznámkách se tvrdí, že může mít mimozemský původ. To by vysvětlovalo podivné souhvězdí, která jsou vyryta na jeho povrchu, a která podezřele nepřipomínají žádná známá souhvězdí pozorovaná ze Země.\n\nZískejte 2 Žetony Stopy a odstraňte tento Žeton Prohledat."
+EventMeetingRoomPapersLibrarianInnocent.button1,Pokračovat
+TokenSearchMeetingShelves.text,"Jak se přibližujete, slyšíte zvláštní hučení a vidíte děsivé fialové světlo."
+TokenSearchMeetingShelves.button1,{action} Prohledat
+EventSearchMeetingRoomShelves.text,"Co to je? Vidíte podivný artefakt, který je zdrojem toho zvuku a světla. Reaguje snad na blízkost Hvězdného kalendáře?"
+EventSearchMeetingRoomShelves.button1,Vzít
+EventSearchMeetingRoomShelves.button2,Nevzít
+EventTakeArtifact.text,"Jakmile uchopíte artefakt, pocítíte, jak vaším tělem proudí ohromná energie. Nutkání si ho ponechat je neodolatelné. Vložíte ho do kapsy, abyste ho uchovali v bezpečí, i když se zdá, že je zdrojem zlé energie.\n\nEnergie proudící vaším tělem je zároveň léčivá i destruktivní. Úplně vyléčte veškerou svou celkovou Příčetnost <b>nebo</b> Zdraví. Pokud vyléčíte svou Příčetnost, vezměte si tolik Karet Zranění otočených lícem dolů. Pokud vyléčíte své Zdraví, vezměte si tolik Karet Strachu otočených lícem dolů.\n\nZískejte unikátní předmět {c:QItemRelic} a 2 Žetony Stopy. Odstraňte tento Žeton Prohledat.\n\nPoznámka: tento předmět je prokletý, takže ho nelze vyměnit ani zahodit. Pokud by událost vyžadovala, abyste tento předmět ztratili, místo toho si vezměte 1 Kartu Zranění otočenou lícem dolů."
+EventTakeArtifact.button1,Pokračovat
+EventLeaveArtifact.text,"Ze strachu z toho, co by se mohlo stát, pokud ho vezmete, se odvrátíte a doufáte, že jste se rozhodli správně."
+EventLeaveArtifact.button1,Pokračovat
+TokenSearchSkeleton.text,"Ve vaší vizi jste viděli doktorku Barnettovou, jak něco kreslí do lebky této kostry."
+TokenSearchSkeleton.button1,{action} Prohledat
+EventSearchSkeleton.text,"Přibližujete se k lebce a hledáte známky jakýchkoliv podivných symbolů."
+EventSearchSkeleton.button1,Pokračovat
+EventSearchSkeletonDoctorGuilty.button1,Pokračovat
+EventSearchSkeletonDoctorInnocent.text,"Když se snažíte kostru lépe prohlédnout, nepodaří se vám uvnitř lebky najít žádné znaky. Avšak pocítíte, jak se kosti začínají chvět, a kostěná ruka náhle sevře vaši paži. Vize byla jen iluzí vytvořenou silami Hvězdného kalendáře, která vás měla vlákat do pasti. Kostra ožije a dveře se s nadpřirozenou energií zapečetí.\n\nVezměte si 3 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {will}).\n\nUmístěte dva Žetony Prozkoumat, jak je uvedeno."
+EventSearchSkeletonDoctorInnocent.button1,Pokračovat
+TokenMeetingRoomLeftLocked.text,"Energetické pole chránící dveře znemožňuje dosáhnout na kliku."
+TokenMeetingRoomLeftLocked.button1,Pokračovat
+TokenMeetingRoomRightLocked.text,"Energetické pole chránící dveře znemožňuje dosáhnout na kliku."
+TokenMeetingRoomRightLocked.button1,Pokračovat
+SpawnSkeleton.text,"Oční důlky kostry se rozsvítí červeně, když sestupuje z háku, který ji držel na místě. S ďábelským úmyslem na vás natahuje ruce.\n\nUmístěte Kostru, jak je uvedeno, a odstraňte tento Žeton Prohledat."
+SpawnSkeleton.button1,Pokračovat
+EventSkeletonNoEvidenceYet.text,"Když se kostru lépe prohlédnout, nepodaří se vám uvnitř lebky najít žádné znaky. Avšak pocítíte, jak se kosti začínají chvět, a kostěná ruka náhle sevře vaši paži. Vize byla jen iluzí vytvořenou silami Hvězdného kalendáře, která vás měla vlákat do pasti. Kostra ožije a dveře se s nadpřirozenou energií zapečetí.\n\nVezměte si 3 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {will}).\n\nUmístěte dva Žetony Prozkoumat, jak je uvedeno."
+EventSkeletonNoEvidenceYet.button1,Pokračovat
+EventKillSkeleton.text,"Jakmile se rám kostry rozpadne na hromádku bezvládných kostí, zmizí a vrátí se do své původní podoby, zavěšené na háku, kde jste ji našli. Dveře jsou zbaveny zlověstné energie, která je chránila, a místnost se vrací do stavu, v jakém byla, když jste do ní poprvé vstoupili.\n\nOdstraňte dva Žetony Prozkoumat v této místnosti."
+EventKillSkeleton.button1,Pokračovat
+EventSkeletonGuiltyEvidence.text,"Při pohledu do lebky kostry vidíte podivné kresby. Rozpoznáváte je jako rituální symboly, které byly nalezeny v souvislosti s Kultem Zeleného oka. Nevíte, co znamenají, ale víte, že to dokazuje vinu doktorky Barnettové.\n\nZískejte unikátní předmět Prostředky pro přípravu rituálu, 2 Žetony Stopy a odstraňte tento Žeton Prohledat."
+EventSkeletonGuiltyEvidence.button1,Pokračovat
+TokenSearchMeetingPodium.text,"Mohl to být tajný úkryt, o kterém vám Eugene vyprávěl?"
+TokenSearchMeetingPodium.button1,Pokračovat
+EventPodiumNOTPossibleHidingPlace.text,"Při zkoumání pódia si vzpomenete, že to nebyl úkryt, který vám Eugene před lety ukázal.\n\nOdstraňte tento Žeton Prohledat."
+EventPodiumNOTPossibleHidingPlace.button1,Pokračovat
+EventPodiumISPossibleHidingPlace.text,"Při zkoumání pódia si vzpomínáte na zámek s hádankou, který děkan Clemens vždy používal k otevření tajného prostoru. Pokuste se vyřešit hádanku {observation}."
+EventPodiumISPossibleHidingPlace.button1,Pokračovat
+TokenSearchPodiumPuzzle.text,"Můžete se pokusit pokračovat v řešení hádanky {observation}."
+PuzzlePodiumPuzzle.button1,Vyřešeno
+TokenSearchPodiumPuzzle.button1,{action} Pokusit se
+EventPodiumInnocent.text,"S úlevou zjistíte, že uvnitř nic není, jen prach. Když už nemáte žádné další místo, kde byste mohli hledat Eugeneova možná tajemství, dojdete k závěru, že ještě nebyl zkorumpován.\n\nStáváte se Soustředěným a odstraňte tento Žeton Prohledat."
+EventPodiumInnocent.button1,Pokračovat
+EventPodiumGuilty.text,"Malá část pódia se vysune, když dokončíte hádanku. Uvnitř najdete skleněnou nádobku s krvavým prstem, který musel být uříznut dnes ráno. Jen si můžete představit, jaký osud potkal zbytek těla.\n\nMalý lístek je omotaný kolem nádoby. Rozbalíte ho a s nechutí čtete následující text, adresovaný vedení Kultu Zeleného oka:\n\n„Já, Eugene Clemens, děkan Miskatonické univerzity, jsem provedl iniciační oběť. Čerstvý prst v této nádobě je důkazem, že jsem splnil zadaný úkol. Prosím, přijměte mě mezi vaše vážené členy.“\n\nJiž déle nepochybujete o důvěře ke svému starému příteli a sklesle vracíte nádobu a lístek zpět, jak jste je našli, a vracíte pódium do jeho původní polohy.\n\nZískejte 2 Žetony Stopy, unikátní předmět Forenzní důkazy a odstraňte tento Žeton Prohledat.\n\nIhned ukončete svůj tah a stáváte se Ochromeným."
+EventPodiumGuilty.button1,Pokračovat
+EventMythosStarCalendar.button1,Tlačítko1
+EventTeleport1stTime.button1,Pokračovat
+EventMythosStarCalendarTeleport.button1,Pokračovat
+SpawnSerpentAfterTeleport.text,"Jedno z „dětí“, o kterých hlas mluvil, se k vám plíží. Je zřejmé, že máte být obětováni na tomto oltáři, stejně jako mnoho dalších před vámi.\n\nUmístěte Hadího člověka, jak je uvedeno."
+EventTeleport1stTime.text,"Zlověstný, syčivý hlas šeptá v mysli vyšetřovatele držícího Hvězdný kalendář. „Tvoje špinavá mrtvola je moje! Moje děti sklidí tvou krev a vezmou si zpět, co je naše!“ Vyšetřovatel držící Hvězdný kalendář tiše zmizí do prázdna spolu s jakýmikoli dalšími vyšetřovateli, kteří sdíleli jeho prostor.\n\nVšichni postižení vyšetřovatelé jsou teleportováni na neznámé místo, obklopené temnou mlhou. Vidíte oltář posetý krvavými skvrnami. Vezměte si 2 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {will}).\n\nUmístěte {c:TileAltar} a postižené vyšetřovatele, jak je uvedeno."
+SpawnSerpentAfterTeleport.button1,Pokračovat
+SpawnSerpentPersonTeleport2nd3rdEtc.button1,Pokračovat
+SpawnSerpentPersonTeleport2nd3rdEtc.text,"Opět slyšíte hadí hlas, který vám vyhrožuje smrtí. Vyšetřovatel držící Hvězdný kalendář, a jakýkoli další vyšetřovatel ve stejném prostoru, jsou teleportováni zpět na to hrůzné místo, které byste nejraději zapomněli. Vezměte si 1 Kartu Strachu otočenou lícem dolů (lze předejít úspěšným hodem na {will}).\n\nUmístěte své vyšetřovatele do prostoru s oltářem a umístěte Hadího člověka, jak je uvedeno."
+EventKillSerpentPersonAfterTeleport.text,"Zabijete zlé stvoření a zelená krev prosakuje do země. Náhle slyšíte zuřivý zvuk tisíců hadů syčících z nebe. Začínáte opět mizet a znovu se objevíte před budovou.\n\nUmístěte své vyšetřovatele, jak je uvedeno."
+EventKillSerpentPersonAfterTeleport.button1,Pokračovat
+EventKillSerpentPersonAfterTeleport2.text,"Zabijete zlé stvoření a zelená krev prosakuje do země. Náhle slyšíte zuřivý zvuk tisíců hadů syčících z nebe. Začínáte opět mizet a znovu se objevíte před budovou.\n\nUmístěte své vyšetřovatele, jak je uvedeno."
+EventKillSerpentPersonAfterTeleport2.button1,Pokračovat
+EventMythosStarCalendarImmobilize.text,"Hvězdný kalendář náhle začne být neuvěřitelně těžký. Vyšetřovatel držící Hvězdný kalendář bojuje s ohromným břemenem, dokud se náhle nevrátí do normálu. Vezměte si 2 Karty Zranění (lze předejít úspěšným hodem na {strength}). Stáváte se Zadrženým."
+EventMythosStarCalendarImmobilize.button1,Pokračovat
+EventMythosStarCalendarTorment.text,"Hrůzné vize mučí vyšetřovatele držícího Hvězdný kalendář. Zlo, které jste viděli v chrámu, když jste se poprvé dotkli tohoto prokletého artefaktu, vás pronásleduje a proniká do nejhlubších zákoutí vaší mysli. Vezměte si 4 Karty Strachu (lze předejít úspěšným hodem na {will})."
+EventMythosStarCalendarTorment.button1,Pokračovat
+EventMythosRndmHaunting.text,"{rnd:hero} je pronásledován hrůzami zažitými během nedávné expedice za Hvězdným kalendářem. Zlá stvoření, krev a krutá aura chrámu se jen tak nezapomenou. Vezměte si 1 Kartu Strachu otočenou lícem dolů a poté otočte 1 Kartu Strachu lícem nahoru."
+EventMythosRndmHaunting.button1,Pokračovat
+EventMythosRndmScars.text,"{rnd:hero} pocítí otevírání starých ran, které utrpěl během expedice v Brazílii. Skoro máte pocit, že se vás chrám snaží zničit na dálku, než objevíte pravou povahu Hvězdného kalendáře. Vezměte si 3 Karty Zranění otočené lícem dolů (lze předejít úspěšným hodem na {strength}). Poté otočte 1 Kartu Zranění lícem nahoru."
+EventMythosRndmScars.button1,Pokračovat
+EventMythosRndmWandering.text,"Všichni vyšetřovatelé náhle přecházejí pod kontrolu záhadné entity. Vaše nohy vás nutí kráčet směrem ke vchodu do budovy, jako by vás něco chtělo přinutit toto místo opustit. Ze všeho nejvíce se bojíte toho, kam vás to nakonec dovede. Vezměte si 3 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {will}). Za každou Kartu Strachu, kterou obdržíte, se přesuňte o 2 pole směrem k nejbližší venkovní lokaci."
+EventMythosRndmWandering.button1,Pokračovat
+EventMythosRndmFearless.text,"Toto vyšetřování naplňuje {rnd:hero} strachem. Můžete být v bezpečí s tak nebezpečným artefaktem, když víte, že vás budou lovit ti, kteří touží po jeho moci? Na druhou stranu, věděli jste, že toto pátrání bude nebezpečné, a riziko stojí za potenciální přínos. Vezměte si 3 Karty Strachu (lze předejít úspěšným hodem na {will}). Pokud neobdržíte žádnou Kartu Strachu, získejte 2 kopie stavu Neohrožený. Každé kolo můžete zahodit pouze jednu z nich."
+EventMythosRndmFearless.button1,Pokračovat
+EventMythosRndmPoison.text,"{rnd:hero} si všimne, že se na okamžik otevře malá trhlina v prostoru, skrze kterou had udeří a pokusí se vpravit svůj jed. Poté se had stáhne do portálu a zmizí stejně náhle, jako se objevil ({observation}+{agility}; 4). Pokud neuspějete, vezměte si 1 Kartu Zranění otočenou lícem dolů a stáváte se Otráveným."
+EventMythosRndmPoison.button1,Pokračovat
+EventMythosRndmObsess.button1,Pokračovat
+EventEventMythosRndmStunned.text,"Hadí hlas proniká myslí {rnd:hero}. „Nemůžeš uniknout mému hněvu! Trp a zemři v beznaději!“ Ostrá, pálivá bolest se rozlévá ve vaší hlavě, ale přes nesnesitelnou bolest nemůžete křičet. Jediným projevem vašeho utrpení je slza tvořící se ve vašem oku. Vezměte si 2 Karty Zranění a 2 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {strength}+{will}). Pokud utrpíte jakékoliv Zranění, stáváte se Ochromeným."
+EventEventMythosRndmStunned.button1,Pokračovat
+EventMythosRndmVisions.text,"Před očima {rnd:hero} probleskují vize šupin a tesáků. Poté slyšíte příval slov pronesených v prastarém jazyce. Snažíte se pochopit tento vám vzdáleně známý jazyk, v naději, že jeho porozumění přinese klid a pochopení. Vezměte si 3 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {lore}). Pokud neobdržíte žádnou Kartu Strachu, získejte 1 Žeton Stopy."
+EventMythosRndmVisions.button1,Pokračovat
+EventMythosStarCalendarStrikeAlly.text,"Vyšetřovatel držící Hvězdný kalendář náhle pocítí šílené nutkání napadnout své spojence. Otestujte své dovednosti {agility}+{strength}, abyste se ovládli. Za každý úspěch méně než 5 musíte udělit 1 Kartu Zranění otočenou lícem dolů jinému vyšetřovateli ve vaší nebo sousední oblasti (toto zranění může být rozděleno mezi více spojenců).\n\nPokud zaútočíte na vyšetřovatele v sousední oblasti, musíte se do této oblasti přesunout.\n\nPokud musíte poškodit své spojence, bez ohledu na počet úspěchů méně než 5, a v blízkosti není žádný spojenec, kterého byste mohli napadnout, vezměte si 1 Kartu Zranění otočenou lícem dolů a otočte 1 Kartu Zranění lícem nahoru."
+EventMythosStarCalendarStrikeAlly.button1,Pokračovat
+EventShowLibrarianStarCalendar.text,"Jste si jisti, že chcete ukázat Hvězdný kalendář Howardu Bechmanovi?"
+EventShowLibrarianStarCalendar.button1,Ano!
+EventShowLibrarianStarCalendar.button2,Ne!
+EventStarCalendarLibrarianGuilty.text,"Podrobně vysvětlujete svou nedávnou expedici do Brazílie a odhalujete Howardu Bechmanovi Hvězdný kalendář. Zahoďte Hvězdný kalendář.\n\nHoward vám jej vytrhne dříve, než stihnete zareagovat. Zlověstný úšklebek, který se mu rozprostře po tváři, vám sevře srdce. „Takže jste našli tento vzácný artefakt, pokusili se ho před námi ukrýt, ale pak nám ho tak jednoduše naservírujete na stříbrném podnose?“ Zlověstně se uchechtne. „Nemáte ani ponětí, co tento artefakt je, že? No, já vám to rád povím. Je to cesta do světa Yiga, Pána hadů. Správně využitý, tento starověký relikt nám umožní přivést Yiga do našeho světa!“\n\nSnažíte se získat zpět Hvězdný kalendář, rozzuření svým osudným omylem. Howard pronesl neznámá slova, když se od vás vzdaluje, najednou kolem vás vše zčerná."
+EventStarCalendarLibrarianGuilty.button1,Pokračovat
+EventFinalBattleSetup.text,"Prokletá slova vás teleportují pryč z univerzity a ocitáte se v hrůzné krajině. Stojíte vedle obrovského oltáře uprostřed přibližující se temnoty a chaotických větrů.\n\nUmístěte {c:TileFinalBattle} a všechny vyšetřovatele, jak je uvedeno."
+EventFinalBattleSetup.button1,Pokračovat
+SpawnYig.text,"Když znovu nabýváte vědomí, vidíte na oltáři ohavné stvoření, které vás sleduje s nenávistí v každém kousku svého těla. Hlasitě zasyčí: „Váš svět je plný pošetilých pytlů masa, kteří jsou ochotni mě následovat, a teď mi poslali další oběť. Jsem Yig, Pán hadů! Jakmile ukojím svou žízeň vaší krví, moji následovníci mě přivolají do vašeho světa, kde budu Velkým ničitelem, nepřetržitě hodujícím na lidském mase!“\n\nVzhledem k tomu, že jste se při plánování návštěvy Miskatonické univerzity obávali nejhoršího, připravili jste se. I když jste nemohli v takovém prostředí odhalit své těžké zbraně, toto je ten pravý čas, abyste vypustili vše, co máte. Sáhnete pod své pláště a odhalíte svůj arzenál.\n\nJeden vyšetřovatel získá Brokovnici a druhý vyšetřovatel získá Samopal. Umístěte Lloigora jako Yiga, Pána hadů."
+SpawnYig.button1,Pokračovat
+CustomMonsterYig.monstername,Yig
+EventYigAttacks.button1,Button1
+CustomMonsterYig.info,-
+EventYigAttack1.text,"Pán hadů máchne svým ocasem v obrovském oblouku. Všichni vyšetřovatelé se pokusí přeskočit masivní bičovitý přívěsek, když kolem nich proletí, v naději, že se vyhnou jeho ostrým čepelím. Každý vyšetřovatel utrpí 3 Zranění (lze předejít úspěšným hodem na {agility}). Pokud utrpíte jakékoliv Zranění, přesuňte se o 1 oblast."
+EventYigAttack1.button1,Pokračovat
+EventYigAttack2.text,"Yig se zhluboka nadechne a poté s masivním výdechem vydechne toxickou zelenou mlhu. Každý vyšetřovatel v oblasti s Yigem a v krajní oblasti s nejvíce vyšetřovateli se stává Otráveným a Ochromeným."
+EventYigAttack2.button1,Pokračovat
+EventYigAttack3.text,"Yig zvedne své drápy k bouři zuřící nad bojištěm a přivolá déšť jedovatých tesáků. Všichni vyšetřovatelé, kteří nejsou v centrální oblasti, utrpí 3 Zranění otočená lícem dolů (lze předejít úspěšným hodem na {observation}). Pokud utrpíte jakékoliv Zranění, stáváte se Otráveným."
+EventYigAttack3.button1,Pokračovat
+EventYigAttack4.text,"S zuřivou energií Yig seče kolem oltáře třpytivými drápy, z nichž každý je dlouhý jako meč. Všichni vyšetřovatelé v oblasti s Yigem utrpí 6 Zranění (lze předejít úspěšným hodem na {agility}+{observation})."
+EventYigAttack4.button1,Pokračovat
+EventYigAttack5.text,"Mocná energie vás začne táhnout směrem k Yigovu monstruóznímu tělu. Všichni vyšetřovatelé provedou hod na ({strength}; 3).\n\nPokud uspějete, dokážete zůstat stát na místě.\n\nPokud neuspějete, musíte se přesunout do centrální oblasti s Yigem a utrpět 1 Zranění otočené lícem dolů. Pokud jste již byli v centrální oblasti, vezměte si 1 Zranění otočené lícem dolů a otočte 1 Zranění lícem nahoru."
+EventYigAttack5.button1,Pokračovat
+EventEvadeYig.button1,Tlačítko1
+EventYigHorror1.text,"Přítomnost Yiga je nesmírně tíživá. Jeho hadovitá postava je na rozdíl od čehokoliv, co byste si dokázali představit, a vědomí o jeho existenci je pro vaši mysl mučivé. Vezměte si 3 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {will}). Otočte 1 Kartu Strachu lícem nahoru."
+EventYigHorror1.button1,Pokračovat
+EventYigHorror2.text,"Yig přestane útočit a začne vás přemlouvat, abyste se k němu přidali jako jedno z jeho dětí, pokud byste jen přijali hadí tělo, které vám nabídne. Vezměte si 2 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {influence})."
+EventYigHorror2.button1,Pokračovat
+EventYigHorror3.text,"Yig promlouvá jazykem, který připomíná staré jihoamerické dialekty. Bojíte se jeho slov, ale porozumění tomuto jazyku vám ulehčí psychický tlak. Vezměte si 2 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {lore})."
+EventYigHorror3.button1,Pokračovat
+EventYigHorror.button1,Tlačítko1
+EventEvadeYig1.text,"Yig vás bedlivě sleduje a chytá vaše tělo, zatímco se pokoušíte uniknout zpod jeho mohutné váhy. Utrpíte 2 Zranění otočené lícem dolů (lze předejít úspěšným hodem na {strength}). Pokud utrpíte jakékoliv Zranění, ztratíte svou akci."
+EventEvadeYig1.button1,Pokračovat
+EventEvadeYig2.text,"Yig máchne svým ostnatým ocasem, aby vám zabránil v úniku. Utrpíte 2 Zranění otočené lícem dolů (lze předejít úspěšným hodem na {agility}). Pokud utrpíte jakékoliv Zranění, ztratíte svou akci."
+EventEvadeYig2.button1,Pokračovat
+CustomMonsterYig.Attack_bladed_1,"Rozběhnete se, abyste Yigovi svou čepelí usekli nohu ({agility}+1; 3). Pokud uspějete, následuje zvuk řezání a výbuch zeleného slizu. Nestvůra obdrží zranění odpovídající poškození vaší zbraně. Pokud neuspějete, Yigův ocas vás smete dříve, než zasáhnete. Vezměte si 1 kartu Zranění."
+EventStarCalendarLibrarianInnocent.text,"Nadšeně vyprávíte svůj příběh o Hvězdném kalendáři a své expedici do nitra brazilské džungle. Howard Bechman je ohromen, ale nevypadá vyděšeně.\n\n'Od té doby, co se zvěsti o tomto artefaktu rozšířily v Arkhamu, mnoho jednotlivců i skupin zkoumalo jeho pravdivost a potenciální moc,' vysvětluje. 'I tady na Miskatonické univerzitě jsme se o něm dozvěděli víc, než byste čekali. Jsem rád, že jste mě na to upozornili, protože musíme okamžitě zorganizovat rituál, abychom jeho moc utlumili a poslali ho zpět do světa, odkud přišel. Možná bychom měli přizvat další zaměstnance, kteří jsou dnes večer stále tady?'\n\nOkamžitě přesvědčíte Howarda, že ostatním nelze věřit. Rychle se přesvědčí. Za každý důkaz, který váš tým našel, může každý vyšetřovatel otočit 1 Kartu Strachu lícem dolů nebo zahodit 1 Kartu Strachu otočenou lícem dolů.\n\nOdstraňte figurku Howarda Bechmana z desky."
+EventStarCalendarLibrarianInnocent.button1,Pokračovat
+EventBeginRitualWithLibrarian.text,"Zahoďte Unikátní předmět Hvězdný kalendář. Opatrně ho položíte na podlahu a připravíte se řídit Howardovy pokyny.\n\nHoward pokračuje: 'Kolektivní výzkum mě vede k přesvědčení, že tento artefakt je spojnicí mezi světy. Legenda tvrdí, že mocná bytost, známá pouze jako Yig, dokázala tento artefakt před stovkami let vyslat do našeho světa. Při správném pochopení jeho schopností by mohl být Yig přivolán do našeho světa. A to je zřejmě motivace Kultu Zeleného oka, který se o tento artefakt zajímá. Jsou to následovníci této zlé bytosti a věří, že vytvoří nový svět, ve kterém budou mít vlivné postavení pod Yigovou železnou vládou.'\n\n'Nyní pošleme tento prokletý kámen zpět do Yigovy říše. Čím více z nás bude odříkávat rituální magii, tím efektivnější budeme. Také musíme na podlahu vyrýt zvláštní souhvězdí. Jakmile dokončíme obě části rituálu, můžeme artefakt vložit do rytiny a měl by se teleportovat zpět k Yigovi, ale rozbitý na stovky kousků.'\n\nUmístěte 2 Žetony Interakce, jak je uvedeno."
+EventBeginRitualWithLibrarian.button1,Pokračovat
+EventAddBarricades.text,"Některé police a nábytek by mohly být použity k zabarikádování dveří, pokud by to bylo potřeba.\n\nUmístěte 2 Žetony Barikády, jak je uvedeno."
+EventAddBarricades.button1,Pokračovat
+EventAlertCultists.text,"Jakmile váš spojenec vysloví první slova rituální magie, Hvězdný kalendář vydá hromový zvuk a prudce se otřese na podlaze. Tlaková vlna upozorní vaše nepřátele na váš záměr."
+EventAlertCultists.button1,Pokračovat
+EventEnemiesAlerted.button1,Button1
+EventEugeneToMonster.button1,Button1
+SpawnDeanWarlockHall1stTime.button1,Button1
+SpawnDeanWarlockHall1stTime.text,"Když se otočí kolem sebe, aby zjistil zdroj narušení, děkan Clemens vycítí sílu Hvězdného kalendáře. 'Tak proto jste dnes večer přišli. Myslím, že jsem připraven na naše setkání,' pronese s temným smíchem.\n\nUmístěte Čarnokněžníka, jak je uvedeno."
+SpawnDeanWarlockHall2ndTime.text,"Když se otočí kolem sebe, aby zjistil zdroj narušení, děkan Clemens vycítí sílu Hvězdného kalendáře. 'Tak proto jste dnes večer přišli. Myslím, že jsem připraven na naše setkání,' pronese s temným smíchem.\n\nUmístěte Černokněžníka, jak je uvedeno."
+SpawnDeanWarlockHall2ndTime.button1,Pokračovat
+SpawnDeanWarlockBathroomLobby.text,"Když se otočí kolem sebe, aby zjistil zdroj narušení, děkan Clemens vycítí sílu Hvězdného kalendáře. 'Tak proto jste dnes večer přišli. Myslím, že jsem připraven na naše setkání,' pronese s temným smíchem.\n\nUmístěte Černokněžníka, jak je uvedeno."
+SpawnDeanWarlockBathroomLobby.button1,Pokračovat
+SpawnDeanWarlockBathroom.text,"Když se otočí kolem sebe, aby zjistil zdroj narušení, děkan Clemens vycítí sílu Hvězdného kalendáře. 'Tak proto jste dnes večer přišli. Myslím, že jsem připraven na naše setkání,' pronese s temným smíchem.\n\nUmístěte Černokněžníka, jak je uvedeno."
+SpawnDeanWarlockBathroom.button1,Pokračovat
+SpawnDeanWarlockOffice.text,"Když se otočí kolem sebe, aby zjistil zdroj narušení, děkan Clemens vycítí sílu Hvězdného kalendáře. 'Tak proto jste dnes večer přišli. Myslím, že jsem připraven na naše setkání,' pronese s temným smíchem.\n\nUmístěte Černokněžníka, jak je uvedeno."
+SpawnDeanWarlockOffice.button1,Pokračovat
+EventProfessorSmithToMonster.button1,Tlačítko1
+SpawnProfessorSerpentPerson.text,"Profesorovo tělo se svíjí, zatímco nadpřirozená energie proudí budovou. Z jeho těla odpadávájí velké kusy masa, odhalujíce jeho pravou podstatu následovníka Yiga.\n\nUmístěte Hadího člověka, jak je uvedeno."
+SpawnProfessorSerpentPerson.button1,Pokračovat
+EventDoctorToMonster.button1,Tlačítko1
+SpawnDoctorFeatheredSerpent.button1,Pokračovat
+EventLibrarianToMonster.button1,Button1
+SpawnDoctorFeatheredSerpent.text,"Doktorka Barnettová vyděšeně zaječí, jak Hvězdný kalendář pulzuje temnou energií. Z jejího těla vystřelí křídla a kůže jí sklouzává na chladnou podlahu.\n\nUmístěte Okřídleného hada dle pokynů."
+SpawnLibrarianSerpentPerson.text,"Hlavní knihovník se zhroutí na zem, jeho rozeklaný jazyk se zmítá ve vzduchu. Jeho šupinatá podoba vylézá z lidského těla a jeho zelené oči září hněvem Yiga.\n\nUmístěte Hadího člověka dle pokynů."
+SpawnLibrarianSerpentPerson.button1,Pokračovat
+EventLibrarianBringsFriends.text,"Zaslepený vztekem se Howard Bechman vrací se svými společníky z kultu. „Obětujeme tvé tělo Yigovi, Pánovi hadů!“ křičí."
+EventLibrarianBringsFriends.button1,Pokračovat
+SpawnLibrarianSerpentPersonOutside.text,"Howardovo tělo se nekontrolovatelně svíjí, jak jeho hadí podoba vyklouzne z lidské mrtvoly.\n\nUmístěte Hadího člověka dle pokynů."
+SpawnLibrarianSerpentPersonOutside.button1,Pokračovat
+SpawnAllyWarlock.text,Umístěte Černokněžníka dle pokynů.
+SpawnAllyWarlock.button1,Pokračovat
+SpawnAllyHumanoid.text,Umístěte {c:SpawnAllyHumanoid} dle pokynů.
+SpawnAllyHumanoid.button1,Pokračovat
+EventNoMythos1.button1,Pokračovat
+EventNoMythos2.button1,Pokračovat
+EventNoMythos3.button1,Pokračovat
+EventStarCalendarDestroyItem.button1,Pokračovat
+EventNoMythos6.button1,Pokračovat
+EventNoMythos5.button1,Pokračovat
+EventStarCalendarDestroyItem.text,"Hrozivě syčící hlas nutí vyšetřovatele držícího Hvězdný kalendář, aby zničil své věci. „Zbav se těchto materiálních věcí. Potřebuješ pouze relikvii, kterou neseš.“ ({influence}; 2). Pokud neuspěješ, zamíchej své běžné předměty, unikátní předměty a kouzla (kromě Hvězdného kalendáře). Jeden z nich náhodně zahoď a Vezmi si 1 kartu Strach."
+EventNoMythos4.button1,Pokračovat
+TokenInteractLibraryRitual.button1,{action} Pomoz s rituálem
+EventRitualComplete.text,"Tvá slova konečně aktivovala Hvězdný kalendář. Začíná jasně zářit a vibrace konečně ustávají.\n\nOdstraň tento Žeton Interakce."
+EventParticipateInRitual.text,"Nasloucháš, jak tvůj spojenec odříkává zaklínadlo, a snažíš se co nejlépe zopakovat jeho slova {lore}.\n\n*Poznámka: Po každém pokusu přidej svůj nový úspěch k celkovému součtu výsledků z předchozích pokusů."
+EventParticipateInRitual.button1,Pokračovat
+EventRitualInProgress.text,Víš, že musíš pokračovat. Čím více budete spolupracovat, tím dříve dokážete vyhnat tento hrůzný artefakt do Yigova světa.
+EventRitualInProgress.button1,Pokračovat
+TokenInteractLibraryRitual.text,Můžeš se zapojit do rituálu.
+EventRitualComplete.button1,Pokračovat
+EventVictoryAfterRitual.button1,Tlačítko1
+TokenInteractLibraryEtching.text,Můžeš pomoci dokončit rytinu rituálu. Můžeš se pokusit vyřešit hádanku pomocí {lore}.
+TokenInteractLibraryEtching.button1,{action} Vyřešeno
+PuzzleEtching2to3.button1,Vyřešeno
+EventCompleteEtching.text,"Konečně se ti podařilo dokončit rytinu.\n\nOdstraň tento Žeton Interakce."
+PuzzleEtching4to5.button1,Vyřešeno
+EventCompleteEtching.button1,Pokračovat
+EventVictoryAfterEtching.button1,Tlačítko1
+TokenInteractDoctorRitual.text,Můžeš se zapojit do rituálu.
+TokenInteractDoctorRitual.button1,{action} Pomoz s rituálem
+TokenInteractDeanRitual.text,Můžeš se zapojit do rituálu.
+TokenInteractDeanRitual.button1,{action} Pomoz s rituálem
+TokenInteractClassRitual.text,Můžeš se zapojit do rituálu.
+TokenInteractClassRitual.button1,{action} Pomoz s rituálem
+TokenInteractDoctorEtching.text,Můžeš pomoci dokončit rytinu rituálu. Můžeš se pokusit vyřešit hádanku pomocí {lore}.
+TokenInteractDoctorEtching.button1,{action} Vyřešeno
+TokenInteractDeanEtching.text,Můžeš pomoci dokončit rytinu rituálu. Můžeš se pokusit vyřešit hádanku pomocí {lore}.
+TokenInteractDeanEtching.button1,{action} Vyřešeno
+TokenInteractClassEtching.text,Můžeš pomoci dokončit rytinu rituálu. Můžeš se pokusit vyřešit hádanku pomocí {lore}.
+TokenInteractClassEtching.button1,{action} Vyřešeno
+EventShowDoctorStarCalendar.text,Jsi si jistý, že chceš ukázat Hvězdný kalendář doktorce Barnettové?
+EventShowDoctorStarCalendar.button1,Ano!
+EventShowDoctorStarCalendar.button2,Ne!
+EventRevealStarCalendarToDean.text,Jsi si jistý, že chceš ukázat Hvězdný kalendář děkanovi Clemensovi?
+EventRevealStarCalendarToDean.button1,Ano!
+EventRevealStarCalendarToDean.button2,Ne!
+EventRevealStarCalendarToProfessor.text,Jsi si jistý, že chceš ukázat Hvězdný kalendář profesorovi Smithovi?
+EventRevealStarCalendarToProfessor.button1,Ano!
+EventRevealStarCalendarToProfessor.button2,Ne!
+EventRevealStarCalendarProfessorInnocent.button1,Pokračovat
+EventRevealStarCalendarDoctorGuilty.button1,"Pokračovat"
+EventRevealStarCalendarDoctorGuilty.text,"Vysvětlujete svou nedávnou expedici do Brazílie a odhalujete Dr. Barnettové Hvězdný kalendář. Odhoďte Hvězdný kalendář.\n\nRose vám ho vytrhne, než stihnete zareagovat. Zlověstný úšklebek, který se jí rozlije po tváři, vám sevře srdce. "Takže, najdete tento vzácný artefakt, pokusíte se ho před námi skrýt, a nakonec nám ho tak jednoduše naservírujete na stříbrném podnose?" zachichotá se hrozivě. "Nemáte ani ponětí, co tento artefakt je, že? Ráda vám to povím. Je to cesta do světa Yiga, Vládce hadů. Správně ovládnutý, tento starodávný relikt nám umožní přivést Yiga do našeho světa!"\n\nPokoušíte se získat Hvězdný kalendář zpět, rozzuření z této obrovské chyby. Rose pronáší nevyslovitelná slova a ustupuje, když v tom náhle vše potemní."
+EventRevealStarCalendarDeanGuilty.text,"Vysvětlujete svou nedávnou expedici do Brazílie a odhalujete Eugeneovi Hvězdný kalendář. Odhoďte Hvězdný kalendář.\n\nNež stihnete zareagovat, Eugene vám ho vytrhne z ruky. Zlověstný úšklebek, který se mu rozlije po tváři, vám sevře srdce. "Takže, najdete tento vzácný artefakt, pokusíte se ho před námi skrýt, a nakonec nám ho tak jednoduše naservírujete na stříbrném podnose?" zachichotá se hrozivě. "Nemáte ani ponětí, co tento artefakt je, že? Rád vám to povím. Je to cesta do světa Yiga, Vládce hadů. Správně ovládnutý, tento starodávný relikt nám umožní přivést Yiga do našeho světa!"\n\nPokoušíte se získat Hvězdný kalendář zpět, rozzuření z této obrovské chyby. Eugene pronáší nevyslovitelná slova a ustupuje, když v tom náhle vše potemní."
+EventRevealStarCalendarDeanGuilty.button1,"Pokračovat"
+EventRevealStarCalendarProfessorGuilty.text,"Vysvětlujete svou nedávnou expedici do Brazílie a odhalujete profesoru Smithovi Hvězdný kalendář. Odhoďte Hvězdný kalendář.\n\nNež stihnete zareagovat, Smith vám ho vytrhne z ruky. Zlověstný úšklebek, který se mu rozlije po tváři, vám sevře srdce. "Takže, najdete tento vzácný artefakt, pokusíte se ho před námi skrýt, a nakonec nám ho tak jednoduše naservírujete na stříbrném podnose?" zachichotá se hrozivě. "Nemáte ani ponětí, co tento artefakt je, že? Rád vám to povím. Je to cesta do světa Yiga, Vládce hadů. Správně ovládnutý, tento starodávný relikt nám umožní přivést Yiga do našeho světa!"\n\nPokoušíte se získat Hvězdný kalendář zpět, rozzuření z této obrovské chyby. Profesor pronáší nevyslovitelná slova a ustupuje, když v tom náhle vše potemní."
+EventRevealStarCalendarProfessorGuilty.button1,"Pokračovat"
+EventRevealStarCalendarDoctorInnocent.text,"Naléhavě vyprávíte svůj příběh o Hvězdném kalendáři a vaší expedici, která ho získala v hlubinách brazilské džungle. Rose je vaším příběhem ohromená, ale nezdá se, že by ji to vyvedlo z míry.\n\n\"Od té doby, co se v Arkhamu rozšířily zvěsti o tomto reliktu, mnoho jednotlivců a skupin zkoumalo jeho pravost a potenciální sílu," vysvětluje. "Dokonce i tady na Miskatonické univerzitě jsme o něm zjistili více, než byste čekali. Jsem ráda, že jste mě na to upozornili, protože budeme muset okamžitě uspořádat rituál, abychom jeho sílu potlačili a vyhnali ho zpět do světa, odkud přišel. Možná bychom měli přizvat další členy fakulty, kteří jsou dnes večer stále zde?"\n\nOkamžitě přesvědčíte Dr. Barnettovou, že ostatní by neměli být důvěryhodní. Snadno je přesvědčena. Za každý Důkaz, které váš tým našel, si každý vyšetřovatel může otočit 1 Kartu Strachu lícem dolů nebo odhodit 1 Kartu Strachu lícem dolů.\n\nOdstraňte žeton Dr. Rose Barnettové z desky."
+EventRevealStarCalendarDoctorInnocent.button1,"Pokračovat"
+EventRevealStarCalendarDeanInnocent.text,"Naléhavě vyprávíte svůj příběh o Hvězdném kalendáři a vaší expedici, která ho získala v hlubinách brazilské džungle. Eugene je vaším příběhem ohromený, ale nezdá se, že by ho to vyvedlo z míry.\n\n\"Od té doby, co se v Arkhamu rozšířily zvěsti o tomto reliktu, mnoho jednotlivců a skupin zkoumalo jeho pravost a potenciální sílu," vysvětluje. "Dokonce i tady na Miskatonické univerzitě jsme o něm zjistili více, než byste čekali. Jsem rád, že jste mě na to upozornili, protože budeme muset okamžitě uspořádat rituál, abychom jeho sílu potlačili a vyhnali ho zpět do světa, odkud přišel. Možná bychom měli přizvat další členy fakulty, kteří jsou dnes večer stále zde?"\n\nOkamžitě přesvědčíte Eugenea, že ostatní by neměli být důvěryhodní. Snadno je přesvědčen. Za každý Důkaz, které váš tým našel, si každý vyšetřovatel může otočit 1 Kartu Strachu lícem dolů nebo odhodit 1 Kartu Strachu lícem dolů.\n\nOdstraňte žeton Eugenea Clemense z desky."
+EventRevealStarCalendarDeanInnocent.button1,"Pokračovat"
+EventRevealStarCalendarProfessorInnocent.text,"Naléhavě vyprávíte svůj příběh o Hvězdném kalendáři a vaší expedici, která ho získala v hlubinách brazilské džungle. Profesor Smith je vaším příběhem ohromen, ale nezdá se, že by ho to vyvedlo z míry.\n\nOd té doby, co se v Arkhamu rozšířily zvěsti o tomto reliktu, mnoho jednotlivců a skupin zkoumalo jeho pravost a potenciální sílu, vysvětluje. Dokonce i tady na Miskatonické univerzitě jsme o něm zjistili více, než byste čekali. Jsem rád, že jste mě na to upozornili, protože budeme muset okamžitě uspořádat rituál, abychom jeho sílu potlačili a vyhnali ho zpět do světa, odkud přišel. Možná bychom měli přizvat další členy fakulty, kteří jsou dnes večer stále zde?\n\nOkamžitě přesvědčíte Smithe, že ostatní by neměli být důvěryhodní. Snadno je přesvědčen. Pokud váš tým našel 3 Důkazy, může si každý vyšetřovatel otočit 1 Kartu Strachu lícem dolů nebo odhodit 1 Kartu Strachu lícem dolů.\n\nOdstraňte žeton profesora Smithe z desky."
+EventBeginRitualWithDoctor.text,"Odhoďte Unikátní předmět Hvězdný kalendář. Opatrně ho položíte na podlahu a připravujete se následovat Rosiny pokyny.\n\nDr.Barnettová pokračuje: Společný výzkum mě vede k přesvědčení, že tento artefakt je spojení mezi světy. Legenda tvrdí, že mocná entita, známá pouze jako Yig, byla schopna tento artefakt poslat do našeho světa před stovkami let. Při správném pochopení jeho schopností by mohl být Yig přivolán do našeho světa. A to se zdá být motivem Kultu Zeleného Oka. Jsou následovníky této zlé bytosti a věří, že přivedou nový svět, kde budou mít pod Yigovou železnou vládou vlivné postavení.\n\nTeď musíme tuto zlou kamennou věc vyhnat zpět do Yigova světa. Čím více z nás bude při rituálu odříkávat magická slova, tím účinnější budeme. Také musíme do podlahy vyrýt podivná souhvězdí. Jakmile dokončíme obě části rituálu, můžeme artefakt umístit do rytiny a měl by se teleportovat zpět k Yigovi, rozbitý na stovky kousků.\n\nUmístěte 2 Žetony Interakce dle instrukcí."
+EventBeginRitualWithDoctor.button1,"Pokračovat"
+EventStartRitualWithDean.text,"Odhoďte Unikátní předmět Hvězdný kalendář. Opatrně ho položíte na podlahu a připravujete se následovat Eugeneovy pokyny.\n\nDěkan Clemens pokračuje: Společný výzkum mě vede k přesvědčení, že tento artefakt je spojení mezi světy. Legenda tvrdí, že mocná entita, známá pouze jako Yig, byla schopna tento artefakt poslat do našeho světa před stovkami let. Při správném pochopení jeho schopností by mohl být Yig přivolán do našeho světa. A to se zdá být motivem Kultu Zeleného Oka. Jsou následovníky této zlé bytosti a věří, že přivedou nový svět, kde budou mít pod Yigovou železnou vládou vlivné postavení.\n\nTeď musíme tuto zlou kamennou věc vyhnat zpět do Yigova světa. Čím více z nás bude při rituálu odříkávat magická slova, tím účinnější budeme. Také musíme do podlahy vyrýt podivná souhvězdí. Jakmile dokončíme obě části rituálu, můžeme artefakt umístit do rytiny a měl by se teleportovat zpět k Yigovi, rozbitý na stovky kousků.\n\nUmístěte 2 Žetony Interakce dle instrukcí."
+EventStartRitualWithDean.button1,"Pokračovat"
+EventBeginRitualWithProfessor.text,"Odhoďte Unikátní předmět Hvězdný kalendář. Opatrně ho položíte na podlahu a připravujete se následovat profesorovy pokyny.\n\nProfesor Smith pokračuje: Společný výzkum mě vede k přesvědčení, že tento artefakt je spojení mezi světy. Legenda tvrdí, že mocná entita, známá pouze jako Yig, byla schopna tento artefakt poslat do našeho světa před stovkami let. Při správném pochopení jeho schopností by mohl být Yig přivolán do našeho světa. A to se zdá být zájmem Kultu Zeleného Oka. Jsou následovníky této zlé bytosti a věří, že přivedou nový svět, kde budou mít pod Yigovou železnou vládou vlivné postavení.\n\nTeď musíme tuto zlou kamennou věc vyhnat zpět do Yigova světa. Čím více z nás bude při rituálu odříkávat magická slova, tím účinnější budeme. Také musíme do podlahy vyrýt podivná souhvězdí. Jakmile dokončíme obě části rituálu, můžeme artefakt umístit do rytiny a měl by se teleportovat zpět k Yigovi, rozbitý na stovky kousků.\n\nUmístěte 2 Žetony Interakce dle instrukcí."
+EventBeginRitualWithProfessor.button1,"Pokračovat"
+EventEliminated.button1,Button1
+EventKillYig.text,"Monstrózní entita Yig je pokrytá purpurovou krví stékající po jeho šupinatém těle. Sténajíc a syčíc bolestí tvor zaskřehotá: Vaše síla... je větší, než jsem očekával. Zmizte odsud! Tvor se plazí do temnoty a mizí z dohledu.\n\nVyšetřování je úspěšně dokončeno."
+EventKillYig.button1,"Pokračovat"
+EventVictorySequenceStart.button1,"Button1"
+EventEliminatedFinalBattle.text,"Se smrtí vašeho přítele nemáte žádnou naději na překonání Yigovy moci.\n\nVyšetřování není dokončeno."
+EventEliminatedFinalBattle.button1,"Pokračovat"
+EventEliminatedStandard.text,"Smrt vašeho přítele předznamenává váš konec.\n\nVyšetřování není dokončeno."
+EventEliminatedStandard.button1,"Pokračovat"
+EventVictoryAfterKillingYig.button1,"Pokračovat"
+EventVictoryBanishingArtifact.text,"Po dokončení rituálu umístíte Hvězdný kalendář do rytin, které jste vytvořili v podlaze.\n\nVyšetřování je dokončeno."
+EventVictoryBanishingArtifact.button1,"Pokračovat"
+UIContinueEndGame.uitext,"Pokračovat"
+UIContinueEndGame.button1,"Button1"
+UIKilledByYigText.uitext,"Zoufalí nad smrtí svého přítele ztrácíte soustředění, zatímco se vám v mysli šíří hrůza. Jak byste kdy mohli doufat, že přemůžete takovou entitu? Yig se směje, když cítí vaše zoufalství. Nikdy jste neměli šanci, zasyčí. Jste vhodnou obětí. Měl bych odměnit své následovníky ve vašem světě tím, že si na nich také pochutnám!\n\nYig odhodí vaše těla do jezera plného hladových hadů. Moje děti si užijí víc lidského masa. Teď jsem přivoláván do vašeho světa. Ujistím se, že všechno, co jste kdy milovali, bude naprosto zničeno. Yig se maniakálně směje, když mizí.\n\nJak hadí tesáky pronikají do každé části vašeho těla, ponořujete se do vodních hlubin. Vaší jedinou útěchou je, že jste nemuseli být svědky zničení vašeho domova a vašich blízkých."
+UIStandardDeathText.uitext,"Získávaje sílu z těla vašeho mrtvého přítele, Hvězdný kalendář vás vtáhne do portálu vedoucího do svého domovského světa. Nebe je temné, krajina pustá, ale nejhroznější věc, kterou spatříte, se tyčí před vámi. Napůl had, napůl nadpozemská bytost, monstrum, které jste nikdy předtím neviděli.\n\nSe syčením rozkoše tvor promluví dunivým hlasem: Vítejte v mém domově, lidé. Jsem Yig, Vládce hadů, a vy musíte být ti, kdo nesli můj relikt. Cítil jsem vás skrze jeho spojení s mým světem. Nyní vás přivedl ke mně. Stanete se chutnou obětí pro mě a mé děti.\n\nStovky hadů se kolem vás plazí, rozeklané jazyky šlehají ve vzduchu. Váš osud je zpečetěn, ale alespoň můžete pár z nich vzít s sebou. Se vším, co máte, udeříte do několika z nich smrtícími údery. Nakonec však rychle podlehnete jejich jedovatým tesákům. Jak vaše vědomí slábne, v hlavě vám doznívá děsivý smích Yiga."
+UIKillYigText.uitext,"Náhle jste přeneseni zpět do děkanátu na Miskatonické univerzitě.\nČlenové Kultu Zeleného Oka se shlukují kolem Hvězdného kalendáře, tak zaujatí, že si nevšímají vašeho náhlého příchodu. Mnozí z nich nabyli hadí podoby, zjevně obdaření samotným Yigem.\n\nBez varování se artefakt rozpadne na prach. Místností se rozléhají záchvaty úžasu a výkřiky, když se kultisté hroutí v zoufalství. Nevíte, zda Yig zemřel, nebo byl jen zraněn. Ale je jasné, že váš úspěch v boji proti zlé entitě vedl ke zničení Hvězdného kalendáře.\n\nVíte, že váš život bude v ohrožení, pokud zjistí, že jste přežili, a vzhledem k jejich zlým záměrům usoudíte, že si nezaslouží žádné slitování. Připravujete své zbraně a během několika sekund zabijete každého z nich. S jejich smrtí a zničením Hvězdného kalendáře si oddechnete. Zjistili jste a viděli víc, než jste chtěli, ale alespoň jste splnili svůj úkol. Plány Kultu Zeleného Oka byly zastaveny a relikt již neohrožuje Arkham."
+UIArtifactBanishedText.uitext,"Hvězdný kalendář zmizí, jakmile se dotkne rytin na podlaze. Kultisté, Yigovi následovníci, reagují na náhlé zmizení artefaktu, jako by v mysli slyšeli Yigův hněv. Padají k zemi, svíjejí se v zjevné agónii. Víte, že teď je vaše chvíle zasáhnout.\n\nRychle zlikvidujete každého člena Kultu Zeleného Oka, kterého najdete. Všichni nejsou schopni bojovat v jejich zběsilé šílenosti, zavoláte úřady a připravíte se vysvětlit šílený pohled, který je čeká. Nevíte, jak vysvětlíte hadí humanoidy, ale to vás nezajímá. Zachránili jste den a relikt už Arkhamu neohrožuje… alespoň prozatím."
+EventKillMirrorSerpent.text,"Když se tvor svíjí před vámi, jeho tělo se vsákne do podlahy a zrcadlo se vrátí do původního stavu. Dveře se znovu otevřou, jako by se nic nestalo.\n\nNyní vidíte, že červený předmět připojený k jeho krku byl malý had, který vašemu nepříteli do těla vpravil jed. Plazí se po zemi, zdá se, že vítá vaši přítomnost. Říká se, že nepřítel vašeho nepřítele je váš přítel. Možná nejsou všechny bytosti z tohoto hrůzného místa zlé.\n\nUmístěte Unikátní předmět Záhadný had do této oblasti."
+EventMythosRndmObsess.text,"Touha po Hvězdném kalendáři přemůže {rnd:hero}. Tato posedlost je neukojitelná. Vezměte si 2 Karty Strachu (lze předejít úspěšným hodem na {will}-1).\n\nPokud tento vyšetřovatel nemá Hvězdný kalendář, přesuňte se o 2 oblasti směrem k vyšetřovateli, který ho drží, za každou obdrženou Kartu Strachu. Pokud dosáhnete jeho oblasti, vezměte si Hvězdný kalendář.\n\nPokud tento vyšetřovatel již drží Hvězdný kalendář, vezměte si 1 Kartu Strachu lícem dolů za každou obdrženou Kartu Strachu. Poté se staňte Ochromeným."
+EventNoMythos1.text,"Tíha vyšetřování je mentálně vyčerpávající. Všichni vyšetřovatelé provedou hod ({will}: 2). Pokud neuspějete, odhoďte 1 pozitivní stav."
+EventNoMythos3.text,"Tíha vyšetřování je mentálně vyčerpávající. Všichni vyšetřovatelé provedou hod ({will}: 2). Pokud neuspějete, odhoďte 1 Žeton Stopy."
+EventNoMythos2.text,"Tíha vyšetřování je mentálně vyčerpávající. Všichni vyšetřovatelé provedou hod ({will}: 2). Pokud neuspějete, odhoďte 1 Žeton Stopy."
+EventNoMythos4.text,"Tíha vyšetřování je mentálně vyčerpávající. Všichni vyšetřovatelé provedou hod ({will}: 2). Pokud neuspějete, odhoďte 1 Žeton Stopy."
+EventNoMythos5.text,"Tíha vyšetřování je mentálně vyčerpávající. Všichni vyšetřovatelé provedou hod ({will}: 2). Pokud neuspějete, odhoďte 1 pozitivní stav."
+EventNoMythos6.text,"Tíha vyšetřování je mentálně vyčerpávající. Všichni vyšetřovatelé provedou hod ({will}: 2). Pokud neuspějete, odhoďte 1 Žeton Stopy."
+EventMythosRandomInvestigator.button1,Pokračovat
+EventTeleportToEntrance.text,"Vyšetřovatel držící Hvězdný kalendář cítí, jak artefakt prudce vibruje. V jednom okamžiku vibrace přestanou. Ocitnete se však opět před budovou děkanátu. Cítíte se, jako by se čas vrátil zpět, ale je možné, že čas byl vrácen jen pro vás? Cítíte se zdravější než dříve, ale jste zděšeni tím, co se právě stalo. Otočte 1 Zranění lícem dolů nebo odhoďte 1 Zranění lícem dolů. Vezměte si 1 Kartu Strachu lícem dolů.\n\nUmístěte svého vyšetřovatele dle instrukcí."
+EventTeleportToEntrance.button1,"Pokračovat"
+EventStarCalendarInsanity.text,"Hvězdný kalendář vám ukazuje hrůzy, které dělají z vašich nejhorších nočních můr klidné sny. Odporné bytosti, krvavé mrtvoly a záběry mučení těla i duše vám prolétají před očima jako dravý proud. Vyšetřovatel držící Hvězdný kalendář ztrácí kontrolu nad svými mentálními schopnostmi.\n\n***Poznámka: před kliknutím na 'Pokračovat' se ujistěte, že vyšetřovatel držící Hvězdný kalendář je jediný, kdo si přečte, co následuje."
+EventStarCalendarInsanity.button1,"Pokračovat"
+EventInsanity3Plus.button1,"Button1"
+EventInsanity2Players.button1,"Button1"
+EventCrisisInsanity.text,"Otočte 1 Kartu Strachu lícem nahoru, poté vyléčte všechny své Karty Strachu lícem dolů a získejte stav Šílenství <i><b>Krize svědomí</b></i> (ze speciálního balíčku odděleného na začátku hry). Žádný jiný hráč nesmí vědět, jaké šílenství jste získali.\n\nTento efekt vám může způsobit, že budete mít více než jeden stav šílenství. Pokud však toto šílenství bude v rozporu s vítěznou podmínkou jiného šílenství, které již máte, odhoďte předchozí šílenství a nahraďte ho tímto. Pro účely určení konfliktu pravidel šílenství je text na kartě šílenství 'Vyhrajete nebo prohrajete hru jako obvykle' přepsán jakoukoli speciální vítěznou podmínkou na jiných kartách šílenství, které máte.\n\nPo zbytek scénáře, pokud utrpíte tolik Strachu, že se rovná vaší Příčetnosti, jste vyřazeni."
+EventCrisisInsanity.button1,"Pokračovat"
+EventFearOfSnakesInsanity.text,"Otočte 1 Kartu Strachu lícem nahoru, poté vyléčte všechny své Karty Strachu otočené lícem dolů a získejte stav Šílenství <i><b>Ofidiofobie</b></i> (ze speciálního balíčku odděleného na začátku hry). Žádný jiný hráč nesmí vědět, jaké šílenství jste získali.\n\nTento efekt vám může způsobit, že budete mít více než jeden stav šílenství. Pokud však toto šílenství bude v rozporu s vítěznou podmínkou jiného šílenství, které již máte, odhoďte předchozí šílenství a nahraďte ho tímto. Pro účely určení konfliktu pravidel šílenství je text na kartě šílenství 'Vyhrajete nebo prohrajete hru jako obvykle' přepsán jakoukoli speciální vítěznou podmínkou na jiných kartách šílenství, které máte.\n\nPo zbytek scénáře, pokud utrpíte tolik Strachu, že se rovná vaší Příčetnosti, jste vyřazeni."
+EventFearOfSnakesInsanity.button1,"Pokračovat"
+EventForbiddenWordsInsanity.text,"Otočte 1 Kartu Strachu lícem nahoru, poté vyléčte všechny své Karty Strachu otočené lícem dolů a získejte stav Šílenství <i><b>Zakázaná slova</b></i> (ze speciálního balíčku odděleného na začátku hry). Žádný jiný hráč nesmí vědět, jaké šílenství jste získali.\n\nTento efekt vám může způsobit, že budete mít více než jeden stav šílenství. Pokud však toto šílenství bude v rozporu s vítěznou podmínkou jiného šílenství, které již máte, odhoďte předchozí šílenství a nahraďte ho tímto. Pro účely určení konfliktu pravidel šílenství je text na kartě šílenství 'Vyhrajete nebo prohrajete hru jako obvykle' přepsán jakoukoli speciální vítěznou podmínkou na jiných kartách šílenství, které máte.\n\nPo zbytek scénáře, pokud utrpíte tolik Strachu, že se rovná vaší Příčetnosti, jste vyřazeni."
+EventForbiddenWordsInsanity.button1,"Pokračovat"
+EventMiseryInsanity.text,"Otočte 1 Kartu Strachu lícem nahoru, poté vyléčte všechny své Karty Strachu otočené lícem dolů a získejte stav Šílenství <i><b>Bída miluje společnost</b></i> (ze speciálního balíčku odděleného na začátku hry). Žádný jiný hráč nesmí vědět, jaké šílenství jste získali.\n\nTento efekt vám může způsobit, že budete mít více než jeden stav šílenství. Pokud však toto šílenství bude v rozporu s vítěznou podmínkou jiného šílenství, které již máte, odhoďte předchozí šílenství a nahraďte ho tímto. Pro účely určení konfliktu pravidel šílenství je text na kartě šílenství 'Vyhrajete nebo prohrajete hru jako obvykle' přepsán jakoukoli speciální vítěznou podmínkou na jiných kartách šílenství, které máte.\n\nPo zbytek scénáře, pokud utrpíte tolik Strachu, že se rovná vaší Příčetnosti, jste vyřazeni."
+EventMiseryInsanity.button1,"Pokračovat"
+EventObsessiveInsanity.text,"Vyléčte všechny své Karty Strachu otočené lícem dolů a získejte stav Posedlost <i><b>Šílený</b></i> (ze speciálního balíčku odděleného na začátku hry). Žádný jiný hráč nesmí vědět, jaké šílenství jste získali.\n\nTento efekt vám může způsobit, že budete mít více než jeden stav šílenství. Pokud však toto šílenství bude v rozporu s vítěznou podmínkou jiného šílenství, které již máte, odhoďte předchozí šílenství a nahraďte ho tímto. Pro účely určení konfliktu pravidel šílenství je text na kartě šílenství 'Vyhrajete nebo prohrajete hru jako obvykle' přepsán jakoukoli speciální vítěznou podmínkou na jiných kartách šílenství, které máte.\n\nPo zbytek scénáře, pokud utrpíte tolik Strachu, že se rovná vaší Příčetnosti, jste vyřazeni."
+EventObsessiveInsanity.button1,"Pokračovat"
+EventRestlessInsanity.text,"Vyléčte všechny své Karty Strachu otočené lícem dolů a získejte stav Neklidná úzkost <i><b>Šílený</b></i> (ze speciálního balíčku odděleného na začátku hry). Žádný jiný hráč nesmí vědět, jaké šílenství jste získali.\n\nTento efekt vám může způsobit, že budete mít více než jeden stav šílenství. Pokud však toto šílenství bude v rozporu s vítěznou podmínkou jiného šílenství, které již máte, odhoďte předchozí šílenství a nahraďte ho tímto. Pro účely určení konfliktu pravidel šílenství je text na kartě šílenství 'Vyhrajete nebo prohrajete hru jako obvykle' přepsán jakoukoli speciální vítěznou podmínkou na jiných kartách šílenství, které máte.\n\nPo zbytek scénáře, pokud utrpíte tolik Strachu, že se rovná vaší Příčetnosti, jste vyřazeni."
+EventRestlessInsanity.button1,"Pokračovat"
+EventTreasureInsanity.text,"Vyléčte všechny své Karty Strachu otočené lícem dolů a získejte stav Lovec pokladů <i><b>Šílený</b></i> (ze speciálního balíčku odděleného na začátku hry). Žádný jiný hráč nesmí vědět, jaké šílenství jste získali.\n\nTento efekt vám může způsobit, že budete mít více než jeden stav šílenství. Pokud však toto šílenství bude v rozporu s vítěznou podmínkou jiného šílenství, které již máte, odhoďte předchozí šílenství a nahraďte ho tímto. Pro účely určení konfliktu pravidel šílenství je text na kartě šílenství 'Vyhrajete nebo prohrajete hru jako obvykle' přepsán jakoukoli speciální vítěznou podmínkou na jiných kartách šílenství, které máte.\n\nPo zbytek scénáře, pokud utrpíte tolik Strachu, že se rovná vaší Příčetnosti, jste vyřazeni."
+EventTreasureInsanity.button1,"Pokračovat"
+EventSuspicious.text,"Vyléčte všechny své Karty Strachu otočené lícem dolů a získejte stav Podezíravost <i><b>Šílený</b></i> (ze speciálního balíčku odděleného na začátku hry). Žádný jiný hráč nesmí vědět, jaké šílenství jste získali.\n\nTento efekt vám může způsobit, že budete mít více než jeden stav šílenství. Pokud však toto šílenství bude v rozporu s vítěznou podmínkou jiného šílenství, které již máte, odhoďte předchozí šílenství a nahraďte ho tímto. Pro účely určení konfliktu pravidel šílenství je text na kartě šílenství 'Vyhrajete nebo prohrajete hru jako obvykle' přepsán jakoukoli speciální vítěznou podmínkou na jiných kartách šílenství, které máte.\n\nPo zbytek scénáře, pokud utrpíte tolik Strachu, že se rovná vaší Příčetnosti, jste vyřazeni."
+EventSuspicious.button1,"Pokračovat"
+EventMythosRndmDropItem.text,"Neviditelná síla, zuřivě syčící, se pokouší vyrvat {rnd:hero} jeho věci. Snažíte se jít do protiútoku, ale síla vašeho neviditelného nepřítele je jako síla obrovské krajty. Vezměte si 4 Karty Zranění otočené lícem dolů (lze předejít úspěšným hodem na {strength}+{agility}).\n\nZamíchejte své běžné předměty, unikátní předměty a kouzla dohromady (kromě Hvězdného kalendáře). Za každé Zranění, které jste utrpěli, odhoďte náhodně jednu kartu do své oblasti."
+EventMythosRndmDropItem.button1,Pokračovat
+EventPullInsanityConditions.button1,Tlačítko1
+EventPullInsanity3PlusPlayers.text,"Oddělte následující Stavy šílenství od balíčku (pokud se vyšetřovatel zblázní běžným způsobem, nemůže si vzít některý z těchto stavů):\n\nKrize svědomí, Ofidiofobie, Zakázaná slova, Bída miluje neštěstí, Pasivita (Poznámka: Pasivita je platný pouze pokud vlastníte rozšíření Za prahem).\n\nPoznámka: Nezapomeňte na akci 'Krádež'. Můžete chtít vzít Hvězdný kalendář jinému vyšetřovateli."
+EventPullInsanity3PlusPlayers.button1,Pokračovat
+EventPullInsanity2Players.text,"Oddělte následující Stavy šílenství od balíčku (pokud se vyšetřovatel zblázní běžným způsobem, nemůže si vzít některý z těchto stavů):\n\nPosedlost, Neklidná úzkost, Lovec pokladů, Podezřívavý, Agresivita (Poznámka: Agresivita je platný pouze pokud vlastníte rozšíření Posvátný soumrak).\n\nPoznámka: Nezapomeňte na akci 'Krádež'. Můžete chtít vzít Hvězdný kalendář jinému vyšetřovateli."
+EventPullInsanity2Players.button1,Pokračovat
+EventPassiveInsanity.button1,Pokračovat
+EventAggressiveInsanity.text,"Vyléčte všechen svůj Strach otočený lícem dolů a získejte stav Šílenství <i><b>Agresivita</b></i> (z hromádky oddělené na začátku hry). Žádný jiný hráč nesmí vědět, jaké šílenství jste získali.\n\nTento efekt může způsobit, že budete mít více než jeden stav Šílenství. Pokud však toto šílenství koliduje s vítěznou podmínkou jiného šílenství, které již máte, odhoďte předchozí šílenství a nahraďte ho tímto. Pro účely určení konfliktních pravidel šílenství je text na kartě šílenství 'Vyhrajete nebo prohrajete hru normálně' přebit speciálními vítěznými podmínkami na jiných kartách šílenství, které máte.\n\nPo zbytek scénáře, pokud utrpíte tolik Strachu, kolik je rovno vaší Příčetnosti, jste eliminováni."
+EventPassiveInsanity.text,"Otočte 1 Kartu Strachu lícem nahoru, poté vyléčte všechen svůj Strach otočený lícem dolů a získejte stav Šílenství<i><b>Pasivita</b></i> (z hromádky oddělené na začátku hry). Žádný jiný hráč nesmí vědět, jaké šílenství jste získali.\n\nTento efekt může způsobit, že budete mít více než jeden šílený stav. Pokud však toto šílenství koliduje s vítěznou podmínkou jiného šílenství, které již máte, odhoďte předchozí šílenství a nahraďte ho tímto. Pro účely určení konfliktních pravidel šílenství je text na kartě šílenství 'Vyhrajete nebo prohrajete hru normálně' přebit speciálními vítěznými podmínkami na jiných kartách šílenství, které máte.\n\nPo zbytek scénáře, pokud utrpíte tolik Strachu, kolik je rovno vaší Příčetnosti, jste eliminováni."
+EventAggressiveInsanity.button1,Pokračovat
+EventMythosStarCalendarClueLost3Players.text,"Vyšetřovatel držící Hvězdný kalendář má pocit, jako by jeho myšlenky a vzpomínky byly vysávány artefaktem.\n\nOdhoďte 1 Žeton stopy."
+EventMythosStarCalendarClueLost2Player.text,"Vyšetřovatel držící Hvězdný kalendář má pocit, jako by jeho myšlenky a vzpomínky byly vysávány artefaktem.\n\nOdhoďte 1 Žeton stopy."
+EventMythosRndmSwapStarCalendar.text,"Z Hvězdného kalendáře slyšíte podivné bzučení. Kalendář najednou zmizí, aby se záhy objevil u jednoho z vašich spojenců. Předejte Hvězdný kalendář vyšetřovateli, který je od vás nejdále. V případě remízy jej předejte vyšetřovateli po vaší levici.\n\nOba postižení vyšetřovatelé si vezmou 2 Karty Strachu otočené lícem dolů (lze předejít úspěšným hodem na {will})."
+EventMythosStarCalendarClueLost2Player.button1,Pokračovat
+EventMythosStarCalendarClueLost3Players.button1,Pokračovat
+EventMythosRndmSwapStarCalendar.button1,Pokračovat
+EventEvadeYig3.text,"Yig si vás v tuto chvíli nevšímá, ale jeho chaotické, hrozivé tělo vám stále brání v úniku. Vezměte si 2 Karty Zranění (lze předejít úspěšným hodem na {observation}). Pokud utrpíte alespoň jedno Zranění, přicházíte o svou akci."
+EventEvadeYig3.button1,Pokračovat
+CustomMonsterYig.Attack_firearm_1,"Snažíte se udržet klid a zamířit na tu obří nestvůru ({observation}+{will}; 4). Pokud uspějete, zůstáváte soustředění a vaše kulky zasáhnou Yigovo tělo. Udělíte mu zranění rovnající se síle vaší zbraně -1. Pokud selžete, otřeseni děsivou bytostí před sebou zaváháte."
+EventCustomInsanity.text,"Zasáhne vás silný pocit chamtivosti, který vás nutí si Hvězdný kalendář ponechat. Nyní ho nemůžete vyměnit ani 'Odhalit' členům fakulty. Pokud vám byl ukraden nebo jste o něj přišli jiným způsobem, tato podmínka přestane platit, pokud ho znovu získáte.\n\nNesmíte ostatním vyšetřovatelům prozradit, proč tyto akce neprovádíte."
+EventCustomInsanity.button1,Pokračovat
+EventOpenBathroomDrawer.text,"Když procházíte zásuvky, abyste prozkoumali všemožné předměty, náhle ucítíte tah na paži, připomínající trhliny v tom prokletém chrámu, které vás vláčely sem a tam. Přestože pocit skončí tak rychle, jak začal, nemůžete se zbavit dojmu, že síly Hvězdného kalendáře jsou blízko k probuzení, bez ohledu na to, jak daleko se nachází od svého brazilského hrobu. Vezměte si 2 Karty Strachu otočené lícem dolů, poté otočte 1 Kartu Strachu lícem nahoru.\n\nZískejte 1 Žeton stopy."
+EventOpenBathroomDrawer.button1,Pokračovat
+CustomMonsterYig.Attack_firearm_2,"Máte strach mířit příliš dlouho, pokusíte se tedy o rychlou střelu do obrovitého břicha bestie ({agility}+1; 3). Pokud uspějete, vaše kulka prorazí cíl a zelený sliz začne kapat na zem. Udělte zranění rovné síle vaší zbraně -1. Pokud neuspějete, jen těsně minete svůj cíl."
+CustomMonsterYig.Attack_heavy_1,"Vrháte se, abyste zasáhli Yigovy šupinaté boky, a mácháte svou zbraní se vší silou, jakou vám dodává příval adrenalinu ({strength}+1; 3). Pokud uspějete, jeho lesklá zbroj nedokáže odolat vaší síle. Udělte zranění rovné síle vaší zbraně. Pokud neuspějete, Yigovy drápy vás ošklivě zasáhnou. Vezměte si 1 Kartu Zranění."
+CustomMonsterYig.Attack_unarmed_1,"Pochybujete, že vaše slabé tělo dokáže této ohavné bytosti ublížit, ale nevzdáte se bez boje {strength}+{will}. Udělte zranění rovné výsledku vašeho hodu -3."
